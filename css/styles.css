@@ -1,0 +1,162 @@
+/* Custom font styles */
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Styles */
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: "Shantell Sans";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* IDs */
+#hero {
+    background-color: #000;
+    background: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.35)), url('../img/burger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sitewide-nav {
+    background-color: rgba(231,178,9,0.85);
+    border-bottom: 0.25rem solid #6c3323;
+    padding: 1rem;
+}
+#complaint-form {
+    position: fixed;
+    left: 500px;
+}
+#secret-text {
+    display: none;
+}
+
+/* Experimental */
+.rating {
+    padding: 0em;
+    font-size: 17pt;
+    line-height: 0.5;
+    width: 1.5em;
+}
+
+/* Classes */
+.navbar {
+    font-family: "Shantell Sans";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.25rem;
+    word-spacing: 7px;
+    position: absolute;
+    left: 245px;
+    top: 82px;
+    
+}
+.date {
+    font-family: "Shantell Sans";
+    font-weight: 200;
+    font-size: 1rem;
+    color: #474646 !important;
+}
+.sidebar-note {
+    padding-top: 0.5em;
+}
+.small-heading {
+    font-family: "Shantell Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+}
+.medium-heading {
+    font-family: "Shantell Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.large-heading {
+    font-family: "Shantell Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+.text-field {
+    width: 200px;
+    height: 25px;
+}
+.message-area {
+    width: 400px;
+    height: 150px;
+}
+.nav-buttons {
+    text-decoration: none;
+}
+.big-text-banner {
+    padding: 5rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+.link-button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+.link-button:hover {
+    background-color: #333;
+}
+.callout-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.header-logo {
+    height: auto;
+    width: 200px;
+    padding: 0.5rem;
+}
+.main-content-wrapper {
+    padding: 1rem;
+}
+.sitewide-footer {
+    background-color: rgba(231,178,9,0.85);
+    color: #ffffff;
+    padding: 1rem;
+}
+
+/* Media queries */
+@media(min-width:992px) {
+    .main-content-wrapper {
+        display: flex;
+    }
+    .main-content-area {
+        flex: 2;
+        padding: 1rem;
+    }
+    .main-content-sidebar {
+        width: 250px;
+        padding: 1rem;
+    }
+    .big-text-banner {
+        padding: 5rem;
+    }
+}
+@media(min-width: 1200px) {
+    .big-text-banner {
+        padding: 8rem 5rem;
+    }
+}
