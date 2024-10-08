@@ -1,0 +1,184 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Viewport Rules */
+@media(min-width:992px) {
+    .main-content-wrapper {
+        display: flex;
+    }
+    .main-content-area {
+        flex: 2;
+        padding: 1rem;
+    }
+    .main-content-sidebar {
+        width: 250px;
+        padding: 1rem;
+    }
+    .big-text-banner {
+        padding: 5rem;
+    }
+}
+@media(min-width: 1200px) {
+    .big-text-banner {
+        padding: 8rem 5rem;
+    }
+}
+
+/* Element Styles */
+body {
+    font-family: sans-serif;
+    margin: 0em;
+    padding: 0em;
+}
+p {
+    font-family: "Shantell Sans";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+label {
+    font-family: "Shantell Sans";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    color: #000;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+
+/* IDs */
+#menu-backsplash_IMG {
+    background-color: #000;
+    background: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.35)), url('../img/burger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#complaint-form_EXP {
+    position: fixed;
+    left: 500px;
+}
+
+/* Classes */
+.navbar_ELM {
+    background-color: rgb(242, 197, 51);
+    border-bottom: 0.25rem solid #6c3323;
+    padding: 1rem;
+}
+.navbar_TXT {
+    font-family: "Shantell Sans";
+    font-weight: bold;
+    word-spacing: 7px;
+    font-size: 1.25rem;
+    text-align: left;
+    position: absolute;
+    left: 245px;
+    top: 82px;   
+}
+.navbar-logo_ELM {
+    height: auto;
+    width: 200px;
+    padding: 0.5rem;
+}
+.navbar-anchor_TXT {
+    color: #000;
+    text-decoration: none;
+}
+.navbar-anchor_TXT:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.backsplash_TXT {
+    padding: 5rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+.date_TXT {
+    font-family: "Shantell Sans";
+    font-weight: 200;
+    font-size: 1rem;
+    color: #474646 !important;
+}
+.rating_ELM {
+    font-size: 17pt;
+    line-height: 0.5;
+    padding: 0em;
+    width: 1.5em;
+}
+.sidebar-note_TXT {
+    padding-top: 0.5em;
+}
+.sitewide-footer_ELM {
+    background-color: rgba(231,178,9);
+    color: #ffffff;
+    padding: 0.25rem;
+}
+.sitewide-footer_TXT {
+    font-family: "Shantell Sans";
+    font-weight: 400;
+    font-size: 0.90rem;
+    color: #fff;
+}
+.link-button_ELM {
+    background-color: #000;
+    display: inline-block;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+}
+.link-button_ELM {
+    font-family: "Shantell Sans";
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.link-button_ELM:hover {
+    background-color: #333;
+}
+
+/* Non-Refactored Classes */
+.small-heading {
+    font-family: "Shantell Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+}
+.medium-heading {
+    font-family: "Shantell Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.large-heading {
+    font-family: "Shantell Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+.text-field {
+    width: 200px;
+    height: 25px;
+}
+.message-area {
+    width: 400px;
+    height: 150px;
+}
+.nav-buttons {
+    text-decoration: none;
+}
+
+.callout-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.main-content-wrapper {
+    padding: 1rem;
+}
