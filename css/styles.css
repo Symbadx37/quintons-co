@@ -7,6 +7,12 @@ body {
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: "Shantell Sans";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
 a {
     color: #000;
     text-decoration: none;
@@ -33,9 +39,16 @@ a:hover {
     position: fixed;
     left: 500px;
 }
-
 #secret-text {
     display: none;
+}
+
+/* Experimental */
+.rating {
+    padding: 0em;
+    font-size: 17pt;
+    line-height: 0.5;
+    width: 1.5em;
 }
 
 /* Classes */
@@ -49,6 +62,15 @@ a:hover {
     left: 245px;
     top: 82px;
     
+}
+.date {
+    font-family: "Shantell Sans";
+    font-weight: 200;
+    font-size: 1rem;
+    color: #474646;
+}
+.sidebar-note {
+    padding-top: 0.5em;
 }
 .small-heading {
     font-family: "Shantell Sans";
@@ -67,12 +89,6 @@ a:hover {
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
-}
-p {
-    font-family: "Shantell Sans";
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1rem;
 }
 .text-field {
     width: 200px;
@@ -118,7 +134,7 @@ p {
 }
 .sitewide-footer {
     background-color: rgba(231,178,9,0.85);
-    color: #fff;
+    color: #ffffff;
     padding: 1rem;
 }
 
