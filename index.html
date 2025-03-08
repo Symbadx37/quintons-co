@@ -1,72 +1,229 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> 
+<html lang="en">
 <head>
-    <!-- Links & References -->
     <title>Home - Quinton's Co.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/icon-yellow.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/icon-yellow_32x32.png">
     <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
-</head>
+</head> 
 <body>
-    <!-- Top Navbar -->
-    <header class="navbar_ELM">
-        <img src="img/logo.png" alt="Quinton's Burgers & Fries" class="navbar-logo_ELM"/>
-            <nav class="navbar_TXT">
-                <a class="navbar-anchor_TXT" href="index.html">Home</a>
-                <a class="navbar-anchor_TXT" href="menu.html">Menu</a>
-                <a class="navbar-anchor_TXT" href="about-us.html">About</a>
-                <a class="navbar-anchor_TXT" href="contact-us.html" >Contact</a>
-            </nav> 
+    <!-- Header: SITEWIDE NAVBAR -->
+    <header>
+        <nav class="sitewide-navbar-grid-container">
+            <img class="sitewide-navbar-logo" src="img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
+            <a class="sitewide-navbar-anchor_1" href="index.html">Home</a>
+            <a class="sitewide-navbar-anchor_2" href="pgs/menu.html">Menu</a>
+            <a class="sitewide-navbar-anchor_3" href="pgs/about.html">About</a>
+            <a class="sitewide-navbar-anchor_4" href="pgs/contact.html" >Contact</a>
+            <a class="sitewide-navbar-anchor_5" href="pgs/locations.html">Locations</a>
+            <a class="sitewide-navbar-anchor_6" href="pgs/ratings.html">Ratings</a>
+
+            <a class="sitewide-navbar-anchor_7" href="">My Quinton's</a>
+            <a class="sitewide-navbar-icon" href="">
+                <img src="img/icons/shopping-cart-2.png" alt="Shopping Cart" width="40px">
+            </a>
+        </nav> 
     </header>
+
+    <!-- Header: SITEWIDE INFOBAR -->
+    <header class="sitewide-infobar-grid-container">
+        <div class="sitewide-infobar-text">We've recently redone our entire website. On top of all the interface and layout changes, 
+            there's also new webpages, food items, contact forms, resturant locations, and customer reviews; on top of a 
+            bunch of other minor tweaks and improvements. You can view the entire list of changes <a href="">here</a> or
+            on our <a href="https://github.com/Symbadx37/symbadx37.github.io">GitHub</a> page. Thank you for being a horrible customer!</div>
+     </header>
+
+    <main>
+        <section id="grid-container">
+            <!-- Backsplash: HOME -->
+            <div id="grid-item_1" class="backsplash-container_med">
+                <h1 class="backsplash-heading">Quinton's Burgers & Fries</h1>
+                <h2 class="backsplash-tagline">"Terrible food quality at horrendous prices"</h2>
+                <p>Come visit us today! We know you'll hate it here.</p>
+                <a class="link-button" href="pgs/locations.html">Find A Location</a>
+            </div>
+
+            <!-- Titlebar: "Welcome To Quinton's" -->
+            <div id="grid-item_2" class="titlebar-container">
+                <div id="titlebar-border"></div>
+                <div class>
+                    <h1 class="titlebar-heading" style="margin-top: 5px; margin-bottom: 3px;">Welcome to Quinton's.</h1>
+                    <p class="titlebar-tagline" style="margin-top: 0; margin-bottom: 10px;">We're not glad you're here, we just want your money.</p>
+                </div>
+            </div>
     
-    <!-- Menu Backsplash -->
-    <section id="menu-backsplash_IMG" class="backsplash_TXT">
-        <p class="callout-text">Quinton's Burgers & Fries</p>
-        <p class="small-heading">"Guaranteed to get your order wrong, every single time"</p>
-        <a class="link-button_ELM" class="link-button_TXT" href="menu.html">View Our Menu</a>
-    </section>
+            <!-- Item Area: "Browse Our Menu" -->
+            <div id="grid-item_3">
+                <h1 class="heading-xlrg_500">Browse Our Menu</h1>
+                <h2 class="heading-med_300">Hungry? Prepare to chow down on diabetes-inducing, ultra-processed cuisine!</h2>
+                <p> Our foods are freshly frozen and always made with the lowest quality ingredients, so you'll always feel
+                    like crap afterwards, no matter what you order. We guarentee a terrible experience when eating at Quinton's,
+                    and the food quality is no different. Not only are our most infamous and signature foods extremely unhealthy,
+                    and sometimes borderline life-threatening, they are made with the most processed and dangerous 
+                    <del>chemicals</del> ingredients known to mankind.</p>
+                <p>So what are you waiting for? Try Quinton's today! We promise you'll regret it!</p>
+                <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
+                    Warning:</span> Quinton's Co. is not responsible for any chronic conditions or bodily injuries that may result
+                    from consumption of served food items. Order and consume at high risk with no caution and/or discretion, because we
+                    wouldn't make any money if you didn't. For a full list of health codes or concerns, please consult our 
+                    <a href="">Corporate Health Policy</a> for more details.
+                </p>
+                <a class="link-button" href="">View Menu</a>
+            </div>
+
+            <!-- Item Area: "Health & Nutrition Facts" -->
+            <div id="grid-item_4">
+                <h1 class="heading-xlrg_500">Health & Nutrition Facts</h1>
+                <h2 class="heading-med_300">What's in our food? Find out!</h2>
+                <p> We know you take health seriously. That's why we've incorrectly listed 90 percent of all ingredients for every food 
+                    item on our menu, so you'll never really know what you're actually eating. Plus, since we know you don't have the time to read through each item and definitely 
+                    don't have the required knowledge to understand what's healthy and what's literal poison, we've taken the liberty of only
+                    providing the most significant ingredients and obscuring everything else behind a paywall.</p>
+                <p>We know you'll hate us after finding out what's really in your food, so that's why we're charging you for it!</p>
+                <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
+                    Note:</span> Quinton's PLUS is currently unavailable due to employment shortages. Please check back at a later time.
+                    If you are unsatisfied with the Quinton's PLUS experience, please call our complaint line number or file an official
+                    complaint via our <a href="pgs/contact.html"> website portal.</a> No, we're not going to thank you; customers like
+                    you are the reason why we can't have nice things.
+                </p>
+                <a class="link-button" href="">Quinton's PLUS</a>
+            </div>
+
+            <!-- Backsplash: TBD -->
+            <div id="grid-item_5" class="backsplash-container_sml">
+                <h1 class="backsplash-heading">Heading</h1>
+                <h2 class="backsplash-tagline">Tagline</h2>
+                <p>Paragraph.</p>
+                <a class="link-button" href="">Button</a>
+            </div>
+
+            <!-- Item Area: "Work At Quinton's" -->
+            <div id="grid-item_6">
+                <h1 class="heading-xlrg_500">Work At Quinton's</h1>
+                <h2 class="heading-med_300">Need a job? We're hiring unskilled slave labor!</h2>
+                <p>Here at Quinton's, we never take employee satisfaction seriously. That's why we've decided to open up our job market to 
+                    the general public. If you're currently looking for a horrible job position that pays worse than ditch digging, then 
+                    look no further than Quinton's! Apply today, and gain an abhorrent, life-altering employment experience that will make
+                    slave labor feel like an entry-level position. </p>
+                <p>We officially promise that you'll never want to work in fast food again!</p>
+                <a class="link-button" href="">Apply Now</a>
+            </div>
     
-    <!-- Main Page Content -->
-    <main class="main-content-wrapper">
-        <section class="main-content-area">
-            <h1 class="large-heading">Who We Are</h1>
-            <p>Here at Quinton's Burger & Fries, we understand the costs of food these days. That's why we jack up our prices 
-                ten times more than our competitors' prices. Not only that, but we have a personal guarantee that we'll always 
-                mess up your order, every single time. You'll never know what you'll end up eating when ordering at Quinton's;
-                it's a rage inducing experience that you'll never get used to!</p>
-                <a class="link-button_ELM" class="link-button_TXT" href="about-us.html">About Us</a>
-            <h1 class="large-heading">How We Operate</h1>
-            <p>We treat operations here at Quinton's like a total joke (just like our company). Not only are we always understaffed
-                and undersupplied, we also operate in a timely manner (and not the fast type). We're proud to say that we are the
-                slowest operating resturant in the entire country! If you enjoy waiting around for hours just for a simple hamburger,
-                then Quinton's is the resturant for you! Come visit us at our only location in Turnaround, CA for a totally 
-                regrettable experience!</p>
-            <a class="link-button_ELM" class="link-button_TXT" href="contact-us.html">Visit Us</a>
-            <h1 class="large-heading">Work At Quinton's</h1>
-            <p>Looking for a horrible job that pays worse than ditch digging or dumpster diving? Look no further and apply to work
-            for Quinton's today! We promise you'll regret it!</p>
-            <a class="link-button_ELM" class="link-button_TXT" href="https://r.mtdv.me/quintons-employment-application">Apply Now</a>
+            <!-- Item Area: "Health Code Policy" -->
+            <div id="grid-item_7">
+                <h1 class="heading-xlrg_500">Health Code Policy</h1>
+                <h2 class="heading-med_300">Don't want food poisoning? Start reading!</h2>
+                <p>At Quinton's, we never follow any health codes except our own (don't tell the FDA). You can rest unassured knowing that
+                    our food items are always prepared in the most unsanitary conditions possible, and are never inspected prior to being
+                    served. Our employees never wash their hands, preperation areas, or cooking utensils; so if you piss one of them off,
+                    we're not liable for anything they might consider doing to your order.</p>
+                <p>
+                <a class="link-button" href="">Health Policy</a>
+            </div>
         </section>
-        
-    <!-- Sitewide HOURS Sidebar --> 
-    <aside class="main-content-sidebar">
-        <h1 class="large-heading">Our Hours</h1>
-        <p>Monday: CLOSED</p>
-        <p>Tuesday: 2:18 AM - 3:68 AM*</p>
-        <p>Wednesday: CLOSED</p>
-        <p>Thrusday: CLOSED</p>
-        <p>Friday: 5:00 PM - 5:01 PM*</p>
-        <p>Saturday: CLOSED</p>
-        <p>Sunday: CLOSED</p>
-        <p class="sidebar-note_TXT">*Operating hours may differ depending on the CEO's current mood.</p>
-    </aside>
     </main>
-    
-    <!-- Sitewite INFO Footer -->
-    <footer class="sitewide-footer_ELM">
-        <div class="sitewide-footer_TXT">&copy 2025 Quinton's Co. All rights reserved.</div>
+
+    <!-- Footer: SITEWIDE FOOTER -->
+    <footer class="sitewide-footer-grid-container">
+        <div class="sitewide-footer-grid-item_1">
+            <p class="sitewide-footer-heading-text">Links</p>
+            <a>Anchor 1.</a>
+        </div>
+        <div class="sitewide-footer-grid-item_2">
+            <p class="sitewide-footer-heading-text">Company</p>
+            <a>Anchor 2.</a>
+        </div>
+        <div class="sitewide-footer-grid-item_3">
+            <p class="sitewide-footer-heading-text">Business</p>
+            <a>Anchor 3.</a>
+        </div>
+        <div class="sitewide-footer-grid-item_4">
+            <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
+        </div>
+
+        
     </footer>
-</body>
-</html>
+
+</body> 
+</html> 
+
+<style>
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "backsplash-area_1 backsplash-area_1"
+        "titlebar titlebar"
+        "item-area_1 item-area_2"
+        "backsplash-area_2 backsplash-area_2"
+        "item-area_3 item-area_4";
+
+    column-gap: 20px;
+    row-gap: 0 20px 20px 20px 20px 20px 20px;
+}
+#grid-item_1, #grid-item_2, #grid-item_3, #grid-item_4,
+#grid-item_5, #grid-item_6, #grid-item_7 {
+    font-family: "Shantell Sans";
+    font-style: normal;
+}
+#grid-item_1 {
+    background: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.35)),
+        url('img/bgs/backsplash-1.webp');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    grid-area: "backsplash-area_1";
+    grid-column: 1 / 3;
+}
+#grid-item_2 {
+    background-color: rgb(242, 197, 51);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 120px;
+
+    grid-area: "titlebar";
+    grid-column: 1 / 3;
+}
+#grid-item_3 {
+    grid-area: "item-area_1";
+    padding: 1rem;
+}
+#grid-item_4 {
+    grid-area: "item-area_2";
+    padding: 1rem;
+}
+#grid-item_5 {
+    background: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.35)),
+        url('img/bgs/backsplash-3.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    grid-area: "backsplash-area_2";
+    grid-column: 1 / 3;
+}
+#grid-item_6 {
+    grid-area: "item-area_3";
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#grid-item_7 {
+    grid-area: "item-area_4";
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#titlebar-border {
+    background-color: rgb(200, 155, 8);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 10px;
+}
+</style>

@@ -1,0 +1,318 @@
+/* HIERARCHY:
+    X. IDs: GENERAL
+    X. IDs: INFOBARS
+
+    X. Classes: GENERAL
+    X. Classes: NAVBARS
+    X. Classes: HEADINGS
+    X. Classes: PARAGRAPHS
+
+    X. Styles: DEFAULT
+    X. Styles: FONTS
+
+    X. Media Viewports
+*/
+
+/* IDs: GENERAL */
+#menu-backsplash {
+    background-color: #000;
+    background: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.35)), url('../img/burger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#menu-backsplash-txt {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+#complaint-form { /* Unused */
+    position: fixed;
+    left: 500px;
+}
+
+/* IDs: INFOBARS */
+#home-infobar, #menu-infobar {
+    background-color: rgb(223, 173, 9);
+    height: 25px;
+}
+#home-infobar-txt, #menu-infobar-txt {
+    font-family: "Shantell Sans";
+    text-align: center; 
+    position: relative;
+    color: #000000;
+    font-size: 0.80rem;
+    font-weight: 500;
+    top: 4px;
+}
+
+/* Classes: GENERAL */
+.main-content-wrapper {
+    padding: 1rem;
+}
+.backsplash-txt {
+    text-align: center;
+    color: #fff;
+    padding: 5rem 2rem;
+}
+.sidebar-note-txt {
+    padding-top: 0.5em;
+}
+.line-break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 0;
+    border: 0;
+}
+.review-rating-img {
+    font-size: 17pt;
+    line-height: 0.5;
+    padding: 0em;
+    width: 1.5em;
+}
+.review-date-txt {
+    font-family: "Shantell Sans";
+    color: #474646 !important;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.form-field, .form-message-area {
+    font-family: "Shantell Sans";
+    font-size: 0.75rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.form-field {
+    width: 200px;
+    height: 25px;
+}
+.form-message-area {
+    width: 400px;
+    height: 150px;
+}
+
+/* Classes: BUTTONS */
+.link-button {
+    font-family: "Shantell Sans";
+    background-color: #000;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    font-weight: 400;
+}
+.link-button:hover {
+    background-color: #333;
+}
+
+/* Classes: NAVBARS */
+.sitewide-navbar {
+    background-color: rgb(242, 197, 51);
+    padding: 1rem;
+}
+.sitewide-navbar-txt {
+    font-family: "Shantell Sans";
+    text-align: left;
+    font-weight: bold;
+    position: absolute;
+    word-spacing: 13px;
+    font-size: 1.25rem;
+    top: 60px;
+    left: 185px;
+}
+.sitewide-navbar-logo {
+    height: auto;
+    width: 160px;
+    padding: 0rem;
+}
+.sitewide-navbar-anchor-txt, .sitewide-navbar-anchor-txt_NONSPACED {
+    color: #000;
+    text-decoration: none;
+}
+.sitewide-navbar-anchor-txt_NONSPACED {
+    word-spacing: 3px;
+}
+.sitewide_navbar-anchor-txt:hover, .sitewide-navbar-anchor-txt_NONSPACED:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Classes: FOOTERS */
+.sitewide-footer {
+    background-color: rgb(242, 197, 51);
+    color: #ffffff;
+    padding: 0.25rem;
+}
+.sitewide-footer-txt {
+    font-family: "Shantell Sans";
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.90rem;
+}
+
+/* Classes: HEADINGS */
+.heading-sml_300, .heading-sml_400, .heading-sml_500, .heading-med_300, .heading-med_400, 
+.heading-med_500, .heading-lrg_300, .heading-lrg_400, .heading-lrg_500 {
+    font-family: "Shantell Sans";
+    font-style: normal;
+    margin: 0.5rem 0rem 0.5rem 0rem; /* Top, right, bottom, left */
+    padding: 0.25rem;
+}
+.heading-sml_300 {
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+.heading-sml_400 {
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+.heading-sml_500 {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.heading-med_300 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.heading-med_400 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.heading-med_500 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.heading-lrg_300 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+.heading-lrg_400 {
+    font-weight: 400; 
+    font-size: 2rem;
+}
+.heading-lrg_500 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/* Classes: PARAGRAPHS */
+.paragraph_400, .paragraph_500 {
+    font-family: "Shantell Sans";
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+.paragraph_400 {
+    font-weight: 400;
+}
+.paragraph_500 {
+    font-weight: 500;
+}
+
+/* Styles: DEFAULT */
+body {
+    font-family: sans-serif;
+    margin: 0em;
+    padding: 0em;
+}
+p {
+    font-family: "Shantell Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+label {
+    font-family: "Shantell Sans";
+    font-style: normal;
+    color: #000;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+footer {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Styles: FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: "Shantell Sans";
+    src: url(../fnt/ShantellSans-VariableFont.ttf) format("truetype");
+}
+
+/* Viewport: MAIN */
+@media(min-width:992px) {
+    .main-content-wrapper {
+        display: flex;
+    }
+    .main-content-area {
+        flex: 2;
+        padding: 1rem;
+    }
+    .main-content-sidebar {
+        width: 250px;
+        padding: 1rem;
+    }
+    .big-text-banner {
+        padding: 5rem;
+    }
+}
+@media(min-width: 1200px) {
+    .big-text-banner {
+        padding: 8rem 5rem;
+    }
+}
+
+/* Viewport: INFOBAR */
+@media (max-width: 1103px) {
+    #home-infobar {
+        height: 45px !important;
+    }
+}
+@media (max-width: 559px) {
+    #home-infobar {
+        height: 60px !important;
+    }
+}
+@media (max-width: 383px) {
+    #home-infobar {
+        height: 75px !important;
+    }
+}
+
+@media (max-width: 979px)  {
+  #menu-infobar {
+    height: 45px !important;
+    }
+}
+@media (max-width: 489px)  {
+    #menu-infobar {
+      height: 60px !important;
+      }
+}
+@media (max-width: 333px)  {
+    #menu-infobar {
+      height: 75px !important;
+      }
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+  }
