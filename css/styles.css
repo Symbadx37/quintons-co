@@ -36,11 +36,11 @@
     font-weight: 200;
     font-size: 1rem;
 }
-.twitter-anchor, .youtube-anchor, .discord-anchor, .github-anchor {
+.twitter-anchor, .discord-anchor, .github-anchor, .facebook-anchor {
     text-decoration: none;
     margin-right: 6px;
 }
-.twitter-anchor:hover, .youtube-anchor:hover, .discord-anchor:hover, .github-anchor:hover {
+.twitter-anchor:hover, .discord-anchor:hover, .github-anchor:hover, .facebook-anchor:hover {
     filter: invert(80%);
 }
 .form-select-container, .form-option, .form-text-field {
@@ -384,35 +384,44 @@ footer {
 .sitewide-footer-grid-container {
     background-color: rgb(242, 197, 51);
     margin-top: 0.5rem;
+    min-width: 100%;
     
     display: grid;
     place-items: center;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 1fr 300px 125px 125px 125px 1fr;
     grid-template-rows: 120px 24px;
     grid-template-areas:
-        "item-area_1 item-area_2 item-area_3"
-        "border-area border-area border-area";
+        ". item-area_1 item-area_2 item-area_3 item-area_4 ."
+        ". border-area border-area border-area .";
 }
-.sitewide-footer-grid-item_4 {
+.sitewide-footer-grid-item_5 {
     background-color: rgb(211, 168, 27);
-    text-align: left;
+    text-align: center;
     height: 24px;
-    width: 100%;
-    
+    min-width: 100%;
+
     grid-area: "border-area";
     grid-row: 2 / 3;
-    grid-column: 1 / 4;
+    grid-column: 1 / 9;
 }
 .sitewide-footer-grid-item_1 {
     grid-area: "item-area_1";
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 .sitewide-footer-grid-item_2 {
     grid-area: "item-area_2";
+    grid-column: 3 / 4;
     grid-row: 1 / 2;
 }
 .sitewide-footer-grid-item_3 {
     grid-area: "item-area_3";
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+.sitewide-footer-grid-item_4 {
+    grid-area: "item-area_4";
+    grid-column: 5 / 6;
     grid-row: 1 / 2;
 }
 
@@ -427,5 +436,15 @@ footer {
     font-family: "Shantell Sans";
     color: #000;
     font-weight: 450;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
+}
+.sitewide-footer-anchor-text {
+    font-family: "Shantell Sans";
+    text-decoration: none;
+    color: #474646;
+    font-weight: 400;
+    font-size: 0.65rem;
+}
+.sitewide-footer-anchor-text:hover {
+    color: #a6a3a3;
 }
