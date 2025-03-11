@@ -316,3 +316,17 @@ footer {
     border-radius: 50%;
     display: inline-block;
   }
+
+  .sitewide-footer-grid-container {
+    background-color: rgb(242, 197, 51);
+    margin-top: 0.5rem;
+    min-width: 100%;
+    
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 300px 125px 125px 125px 1fr;
+    grid-template-rows: 120px 24px;
+    grid-template-areas:
+        ". item-area_1 item-area_2 item-area_3 item-area_4 ."
+        ". border-area border-area border-area .";
+}

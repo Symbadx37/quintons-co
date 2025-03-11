@@ -36,11 +36,11 @@
     font-weight: 200;
     font-size: 1rem;
 }
-.twitter-anchor, .discord-anchor, .github-anchor, .facebook-anchor {
+.icon-anchor {
     text-decoration: none;
     margin-right: 6px;
 }
-.twitter-anchor:hover, .discord-anchor:hover, .github-anchor:hover, .facebook-anchor:hover {
+.icon-anchor:hover {
     filter: invert(80%);
 }
 .form-select-container, .form-option, .form-text-field {
@@ -48,7 +48,7 @@
     color: #000;
     font-weight: 300;
     font-size: 0.75rem;
-    padding: 0.675em 1em 0.675em 1em;
+    padding: 0.675em 0.25em 0.675em 0.25em;
     margin-right: 0.5rem;   
 }
 .image-frame {
@@ -61,6 +61,16 @@
 .image-frame-caption {
     text-align: center;
     padding: 2px 20px;
+}
+
+/* Classes: RATINGS */
+.rating-container {
+    /* box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
+    border-radius: 0.5rem; */
+    padding-right: 0.25rem;
+    padding-top: 0.20rem;
+    margin-bottom: 3px;
+    margin-right: 10px;
 }
 
 /* Classes: BUTTONS */
