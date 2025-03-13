@@ -330,3 +330,13 @@ footer {
         ". item-area_1 item-area_2 item-area_3 item-area_4 ."
         ". border-area border-area border-area .";
 }
+
+.menu-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto;
+    column-gap: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+}
