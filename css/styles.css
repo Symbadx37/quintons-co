@@ -167,48 +167,29 @@
 .sitewide-navbar-icon:hover {
     filter: invert(100%);
 }
-.menu-navbar {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 160px));
-    grid-gap: 25px;
-    margin-right: 10px;
-}
-.menu-navbar-anchor {
-    text-decoration: none;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
-    border-radius: 0.5rem;
-}
-.menu-navbar-anchor:hover {
-    background-color: #e8e6e6;
-}
-.menu-navbar-item-text {
-    font-family: "Shantell Sans";
-    text-align: center;
-    color: #000;
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-bottom: 5px !important;
-    position: relative;
-    bottom: 15px;
-}
-.titlebar-container {
+.seperator-container {
     text-align: center;
     color: #fff;
     margin: 0;
 }
-.titlebar-heading {
+.seperator-heading {
     font-weight: bold;
     font-size: 2.5rem;
 }
-.titlebar-tagline {
+.seperator-tagline {
     font-weight: 400;
     font-size: 1.5rem;
+}
+.seperator-border {
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 10px;
 }
 
 /* Classes: BACKSPLASHES */
 .backsplash-container_sml, .backsplash-container_med,
-.backsplash-container_lrg {
+.backsplash-container_lrg, .backsplash-container_var {
     text-align: center;
     color: #fff;
 }
@@ -228,8 +209,20 @@
     margin-bottom: 10px;
 }
 .backsplash-tagline {
-    font-weight: 350;
+    font-weight: 400;
     font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.backsplash-paragraph_400 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.backsplash-paragraph_450 {
+    font-weight: 450;
+    font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -264,8 +257,6 @@
     margin-top: -10px;
     padding-right: 0.5rem
 }
-
-
 
 /* Classes: HEADINGS */
 .heading-sml_300, .heading-sml_400, .heading-sml_500, .heading-med_300, .heading-med_400, 
@@ -385,6 +376,28 @@ footer {
 @media(min-width: 1200px) {
     .big-text-banner {
         padding: 8rem 5rem;
+    }
+}
+
+/* Viewport: MENU CONTAINERS */
+@media(max-width: 1599px) {
+    .menu-image-container {
+        width: 325px;
+    }
+}
+@media(min-width: 1600px) {
+    .menu-image-container {
+        width: 300px;
+    }
+}
+@media(min-width: 1800px) {
+    .menu-image-container {
+        width: 250px;
+    }
+}
+@media(min-width: 2200px) {
+    .menu-image-container {
+        width: 200px;
     }
 }
 

@@ -340,3 +340,21 @@ footer {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
     border-radius: 0.5rem;
 }
+
+#menu-navbar {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 160px));
+    grid-gap: 25px;
+    margin-right: 10px;
+}
+.grid-container {
+    grid-template-areas:
+        "backsplash-area_1 backsplash-area_1"
+        "titlebar titlebar"
+        "item-area_1 backsplash-area_2"
+        "item-area_2 backsplash-area_3"
+        "item-area_3 item-area_4"
+        "backsplash-area_4 backsplash-area_4"
+        "item-area_5 item-area_5";
+}
