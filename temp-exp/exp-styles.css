@@ -1,18 +1,3 @@
-/* HIERARCHY:
-    X. IDs: GENERAL
-    X. IDs: INFOBARS
-
-    X. Classes: GENERAL
-    X. Classes: NAVBARS
-    X. Classes: HEADINGS
-    X. Classes: PARAGRAPHS
-
-    X. Styles: DEFAULT
-    X. Styles: FONTS
-
-    X. Media Viewports
-*/
-
 /* IDs: GENERAL */
 #menu-backsplash {
     background-color: #000;
@@ -357,4 +342,21 @@ footer {
         "item-area_3 item-area_4"
         "backsplash-area_4 backsplash-area_4"
         "item-area_5 item-area_5";
+}
+
+#grid-item_ { /* Rate Us */
+    background: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.20)),
+        url('img/image-placeholder.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 4 / 7;
+}
+#grid-item_ { /* Item Area: "Contact Us" */
+    background: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.20)),
+        url('img/image-placeholder.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1 / 4;
 }
