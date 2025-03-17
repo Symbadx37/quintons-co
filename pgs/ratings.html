@@ -275,7 +275,7 @@
         </div>
         <div class="sitewide-footer-grid-item_3">
             <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Company</p>
-            <a class="sitewide-footer-anchor-text" href="about.html">Our Story</a><br>
+            <a class="sitewide-footer-anchor-text" href="err/503.html">Our Story</a><br>
             <a class="sitewide-footer-anchor-text" href="contact.html">Contact Info</a><br>
             <a class="sitewide-footer-anchor-text" href="ratings.html">Write A Review</a><br>
             <a class="sitewide-footer-anchor-text" href="contact.html">File A Complaint</a>
@@ -299,15 +299,6 @@
         justify-content: left;
         row-gap: 5px;
         grid-template-columns: 280px 280px;
-        grid-template-rows: auto;
-        grid-template-areas:
-            "label-area_1 label-area_2"
-            "item-area_1 item-area_2"
-            "label-area_3 label-area_4"
-            "item-area_3 item-area_4"
-            "label-area_4 label-area_4"
-            "item-area_5 item-area_5"
-            "button-area_1 button-area_2";
     }    
     #rating-form-grid-item_1, #rating-form-grid-item_2, #rating-form-grid-item_3, #rating-form-grid-item_4,
     #rating-form-grid-item_5, #rating-form-grid-item_6, #rating-form-grid-item_7, #rating-form-grid-item_8,
@@ -316,97 +307,75 @@
         color: #000;
         font-weight: 100;
     }
-    #rating-form-grid-item_1 { /* First Name */
-        grid-area: "label-area_1";
+    #rating-form-grid-item_1 { /* Label: "First Name" */
         font-size: 1rem;
     }
-    #rating-form-grid-item_2 { /* First Name */
-        grid-area: "item-area_1";
+    #rating-form-grid-item_2 { /* Element: "First Name" */
         width: 250px;
         height: 28px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
-
         grid-row: 2 / 3;
     }
-    #rating-form-grid-item_3 { /* Last Name */
-        grid-area: "label-area_2";
+    #rating-form-grid-item_3 { /* Label: "Last Name" */
         font-size: 1rem;
     }
-    #rating-form-grid-item_4 { /* Last Name */
-        grid-area: "item-area_2";
+    #rating-form-grid-item_4 { /* Element: "Last Name" */
         width: 250px;
         height: 28px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
-
         grid-row: 2 / 3;
     }
-    #rating-form-grid-item_5 { /* Review Title */
-        grid-area: "label-area_3";
+    #rating-form-grid-item_5 { /* Label: "Review Title" */
         font-size: 1rem;
-
         grid-row: 3 / 4;
     }
-    #rating-form-grid-item_6 { /* Review Title */
-        grid-area: "item-area_3";
+    #rating-form-grid-item_6 { /* Element: "Review Title" */
         width: 250px;
         height: 28px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
-
         grid-row: 4 / 5;
         grid-column: 1 / 2;
     }
-    #rating-form-grid-item_7 { /* Rating */
-        grid-area: "label-area_4";
+    #rating-form-grid-item_7 { /* Label: "Rating" */
         font-size: 1rem;
-
         grid-row: 3 / 4;
         grid-column: 2 / 3;
     }
-    #rating-form-grid-item_8 { /* Rating */
-        grid-area: "item-area_4";
+    #rating-form-grid-item_8 { /* Element: "Rating" */
         width: 258px;
         height: 35px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
-
         grid-row: 4 / 5;
         grid-column: 2 / 3;
     }
-    #rating-form-grid-item_9 { /* Message */
-        grid-area: "label-area_5";
+    #rating-form-grid-item_9 { /* Label: "Review Message" */
         font-size: 1rem;
-    
         grid-row: 5 / 6;
     }
-    #rating-form-grid-item_10 { /* Message */
-        grid-area: "item-area_5";
+    #rating-form-grid-item_10 { /* Element: "Review Message" */
         width: 532px;
         height: 150px;
         font-size: 0.75rem;
-    
         grid-row: 6 / 7;
     }
-    #rating-form-grid-item_11 { /* Submit */
-        grid-area: "button-area_1";
+    #rating-form-grid-item_11 { /* Button: "Submit" */
         font-size: 0.75rem;
         margin: 0.25rem 0 0.25rem 0;
         padding: 0.25rem 0.5rem;
         width: 100px;
-    
         grid-row: 7 / 8;
     }
-    #rating-form-grid-item_12 { /* Clear */
-        grid-area: "button-area_2";
+    #rating-form-grid-item_12 { /* Button: "Clear" */
         font-size: 0.75rem;
         margin: 0.25rem 0 0.25rem 0;
         padding: 0.25rem 0.5rem;
         width: 95px;
         position: relative;
         right: 170px;
-        
         grid-row: 7 / 8;
     }
     </style>

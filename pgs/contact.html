@@ -53,7 +53,7 @@
             after all!</p>
         <p>All of our locations and corporate office all have seperate phone numbers listed, which may or may not suffer from
             the same issues. Only one way to find out!</p>
-
+            
         <h2 class="heading-lrg_400">Contact Info</h2>
         <h3 class="heading-sml_400">Phone Numbers:</h3>
         <p>Main Business Line: (619) 357-4528</p>
@@ -79,8 +79,6 @@
         <h3 class="heading-sml_400">Corporate Office:</h3>
         <p>1432 N Profitmargin Rd. San Diego, CA 92104</p>
         <p>Office Phone: (858) 534-0468</p>
-
-        </div>
         
         <!-- Text Area: "Customer Complaints" -->
         <div>
@@ -199,7 +197,7 @@
         </div>
         <div class="sitewide-footer-grid-item_3">
             <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Company</p>
-            <a class="sitewide-footer-anchor-text" href="about.html">Our Story</a><br>
+            <a class="sitewide-footer-anchor-text" href="err/503.html">Our Story</a><br>
             <a class="sitewide-footer-anchor-text" href="contact.html">Contact Info</a><br>
             <a class="sitewide-footer-anchor-text" href="ratings.html">Write A Review</a><br>
             <a class="sitewide-footer-anchor-text" href="contact.html">File A Complaint</a>
@@ -223,17 +221,6 @@
         justify-items: left;
         row-gap: 5px;
         grid-template-columns: 280px 280px;
-        grid-template-rows: auto;
-        grid-template-areas:
-            "label-area_1 label-area_2"
-            "item-area_1 item-area_2"
-            "label-area_3 label-area_4"
-            "item-area_3 item-area_4"
-            "label-area_5 ."
-            "item-area_5 item-area_5"
-            "label-area_6 ."
-            "item-area_6 ."
-            "button-area_1 button-area_2";
     }    
     #complaint-form-grid-item_1, #complaint-form-grid-item_2, #complaint-form-grid-item_3, #complaint-form-grid-item_4,
     #complaint-form-grid-item_5, #complaint-form-grid-item_6, #complaint-form-grid-item_7, #complaint-form-grid-item_8,
@@ -242,98 +229,77 @@
         color: #000;
         font-weight: 100;
     }
-    #complaint-form-grid-item_1 {
-        grid-area: "label-area_1";
+    #complaint-form-grid-item_1 { /* Label: "First Name" */
         font-size: 1rem;
     }
-    #complaint-form-grid-item_2 {
-        grid-area: "item-area_1";
+    #complaint-form-grid-item_2 { /* Element: "First Name" */
         width: 250px;
         height: 25px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
-    
         grid-row: 2 / 3;
     }
-    #complaint-form-grid-item_3 {
-        grid-area: "label-area_2";
+    #complaint-form-grid-item_3 { /* Label: "Last Name" */
         font-size: 1rem;
     }
-    #complaint-form-grid-item_4 {
-        grid-area: "item-area_2";
+    #complaint-form-grid-item_4 { /* Element: "Last Name" */
         width: 250px;
         height: 25px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
     }
-    #complaint-form-grid-item_5 {
-        grid-area: "label-area_3";
+    #complaint-form-grid-item_5 { /* Label: "Email" */
         font-size: 1rem;
     }
-    #complaint-form-grid-item_6 {
-        grid-area: "item-area_3";
+    #complaint-form-grid-item_6 { /* Element: "Email" */
         width: 250px;
         height: 25px;
         font-size: 0.75rem;
-    
         grid-row: 4 / 5;
     }
-    #complaint-form-grid-item_7 {
-        grid-area: "label-area_4";
+    #complaint-form-grid-item_7 { /* Label: "Phone" */
         font-size: 1rem;
     }
-    #complaint-form-grid-item_8 {
-        grid-area: "item-area_4";
+    #complaint-form-grid-item_8 { /* Element: "Phone" */
         width: 250px;
         height: 25px;
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
     }
-    #complaint-form-grid-item_9 {
-        grid-area: "label-area_5";
+    #complaint-form-grid-item_9 { /* Label: "Reason" */
         font-size: 1rem;
     }
-    #complaint-form-grid-item_10 {
-        grid-area: "item-area_5";
+    #complaint-form-grid-item_10 { /* Element: "Reason" */
         margin-bottom: 0.5rem;
         font-size: 0.75rem;
         width: 538px;
         height: 33.4px;
-    
         grid-row: 6 / 7;
     }
-    #complaint-form-grid-item_11 {
-        grid-area: "label-area_6";
+    #complaint-form-grid-item_11 { /* Label: "Message" */
         font-size: 1rem;
-    
         grid-row: 7 / 8;
     }
-    #complaint-form-grid-item_12 {
-        grid-area: "item-area_6";
+    #complaint-form-grid-item_12 { /* Element: "Message" */
         width: 532px;
         height: 150px;
         font-size: 0.75rem;
-    
         grid-row: 8 / 9;
     }
-    #complaint-form-grid-item_13 {
-        grid-area: "button-area_1";
+    #complaint-form-grid-item_13 { /* Button: "Submit" */
         font-size: 0.75rem;
         margin: 0.25rem 0 0.25rem 0;
         padding: 0.25rem 0.5rem;
         width: 100px;
-    
         grid-row: 9 / 10;
     }
-    #complaint-form-grid-item_14 {
-        grid-area: "button-area_2";
+    #complaint-form-grid-item_14 { /* Button: "Clear" */
         font-size: 0.75rem;
         margin: 0.25rem 0 0.25rem 0;
         padding: 0.25rem 0.5rem;
         width: 95px;
         position: relative;
         right: 170px;
-        
         grid-row: 9 / 10;
     }
     </style>
