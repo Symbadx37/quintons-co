@@ -6,13 +6,13 @@ using GitHub pages and is a satirical website for a fictional fast food chain, [
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
 ## Release v0.2.0
-**Commit Date:** TBD
+**Commit Date:** March 19th, 2025
 ### General Changes
 - Updated sitewide navbar. Reduced the size of the logo, increased the spacing between words, and added new page anchors: `Locations`, `Ratings`, `My Quinton's`, and a shopping cart icon. Changed the background color and removed the bottom border.
 - Added sitewide infobars to all major pages.
 - Updated sitewide sidebar. Added `Who We Are` and `Contact Us` sections to the sidebar. Updated text content of `Our Hours` section. Removed `Contact Us` section from the `contact.html` page to avoid redundancy.
 - Updated sitewide footer. Changed the primary background color. Added sections for website title, info, and social media; as well as services, company, and business anchors. Added bottom border and centered copyright text within the border.
-- Added `ratings.html` page. Added `Customer Ratings ` section. Added `Write A Review` form section. Added backend support to form via a third-party hoster. 
+- Added `ratings.html` page. Added `Customer Ratings ` section. Added `Write A Review` form section. Added backend support to form via a [third-party](https://formsubmit.co/) hoster. 
 - Added `503.html` page.
 - Updated `404.html` page. Headings and text content were added.
 - Added five separate sub-menu pages: `beverages.html`, `condiments.html`, `fries.html`, `hamburgers.html`, and `sandwiches.html`.
@@ -31,27 +31,27 @@ The full changelogs for all release versions are listed below in addition to the
 - All IDs are now directly embedded within their respective HTML file instead of the external stylesheet.
 - Improved and/or replaced code structure for numerous HTML and CSS elements. Grid elements are now used for the majority of complex page elements instead of the prior, more primitive styling methods.
 - Added new `@media` viewports for handling menu image containers to the `styles.css` file.
-### Changes to `index.html`
 - Updated home backsplash. Increased the size of the background image. Changed the text content of the tagline and increased its font size and weight. Added a paragraph below the tagline. Changed the text content of the link button and its anchor link.
+### Page Changes - "Home"
 - Added four page separators: `Welcome to Quinton's`, `Contact Quinton's`, `Health & Nutrition`, and `Legal Nonsense`.
 - Updated `Who We Are` and `How We Operate` item areas.
 - Added `Customer Complaints`, `Company Disclaimer`, and `Corporate Health Policy` item areas.
 - Added four new backsplashes: `Eat At Quinton's`, `Quinton's Meal Deals`, `Work At Quinton's`, and `Nutrition Facts`.
-### Changes to `menu.html`
+### Page Changes - "Menu"
 - Adapted all viable menu content to the new menu layout and removed any unusable content from the page.
 - Added `Quinton's Menu` section.
 - Added a navbar for linking each sub-menu page.
-### Changes to `about.html`
+### Page Changes - "About Us"
 - Renamed `about-us.html` to `about.html`.
 - Updated all references to redirect to `503.html` instead as it is still undergoing development changes. It will be completed and re-added in a later update.
 - Moved the `Testimonials` section to the `ratings.html` page.
-### Changes to `contact-us.html`
+### Page Changes - "Contact Us"
 - Renamed `contact-us.html` to `contact.html`.
 - Added new `Contact Quinton's` section.
 - Updated `Contact` section. Renamed heading from `Contact` to `Contact Info`. Added subheadings. Added new phone numbers and business emails. 
 - Updated `Location` section. Renamed heading from `Location` to `Our Locations`. Added subheadings. Added new restaurant locations and corporate office. Added addresses and phone numbers for all listed items.
 - Added new `Customer Complaints` section.
-- Updated `File A Complaint` form section. Renamed heading from `File A Complaint` to `Complaint Form`. Added subheading.Improved form field layout and styling. Added new `Reason` select field and pre-determined options. Tweaked styling and text content. Added 'required' paragraph below form. Added backend support to form via a third-party hoster.
+- Updated `File A Complaint` form section. Renamed heading from `File A Complaint` to `Complaint Form`. Added subheading. Improved form field layout and styling. Added new `Reason` select field and pre-determined options. Tweaked styling and text content. Added 'required' paragraph below form. Added backend support to form via a [third-party](https://formsubmit.co/) hoster.
 ## Release v0.1.6
 **Commit Date:** March 10th, 2025
 - Added new error page `404.html` for displaying when attempting to view unavailable pages.
