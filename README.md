@@ -5,10 +5,15 @@ This repository is an on-going side project for learning and practicing HTML, CS
 using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.0.5
+**Commit Date:** March 25th, 2025
+- Added new customer review to the `ratings.html` page.
+- Updated the discord invite code for the sitewide footer on all respective pages.
+- Updated `README.md` to reflect `v0.2.0.5` changes.
 ## Patch v0.2.0.4
 **Commit Date:** March 24th, 2025
 - Added `LICENSE` file to root.
-- Added Apache 2.0 open source license to repository.
+- Updated `README.md` to reflect `v0.2.0.4` changes.
 ## Patch v0.2.0.3
 **Commit Date:** March 24th, 2025
 - Added an upscaled version (from 96x96 to 384x384) of the Quinton's favicon to the source code for future use.
