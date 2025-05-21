@@ -5,6 +5,11 @@ This repository is an on-going side project for learning and practicing HTML, CS
 using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.1.1
+**Commit Date:** May 21st, 2025
+- Improved the wording of the newest customer review, 'In Complete Shambles' to grammatically flow better.
+- Updated the version code and build number on the sitewide footer.
+- Updated `README.md` to reflect `v0.2.1.1` changes.
 ## Minor Release v0.2.1.0
 **Commit Date:** May 21st, 2025
 - Added two new menu items to `condiments.html` page.
