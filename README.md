@@ -1,10 +1,22 @@
 # Quinton's Burgers & Fries
 *Welcome to Quinton's Burgers & Fries! We're  booming start-up fast food chain based in southern California where nothing ever goes ~~right~~ wrong! Come visit us today, and we promise you'll have a totally regrettable experience!*
+## Disclaimer
+This website and associated location "Quinton's Burgers & Fries" is purely ficticious and has no real world association with any real business or corporation. All seemingly real information listed on the website, such as names, phone numbers, or addresses are ficticious. No harm or illegal activity is intended by the content depicted on this website; it is for purely satircial and project-based learning purposes.
 ## Purpose
-This repository is an on-going side project for learning and practicing HTML, CSS, and eventually JavaScript (and potentially other backend languages). The website is hosted
-using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
+This repository is an on-going side project for learning and practicing HTML, CSS, and JavaScript. The website is hosted using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.1.3
+**Commit Date:** September 4th, 2025
+- Added custom DNS to the repository: https://quintons.co. The old github.io DNS will now redirect to the new domain.
+- Changed phone numbers for main business line, customer support line, customer complaint line, and all business-specific phone lines on all applicable pages to prevent potential spam of real world numbers.
+- Removed support email from the `contact.html` page.
+- Enabled CAPTCHA for all form submissions.
+- Updated redirect URL for all form submissions.
+- Added webhook link for displaying form submissions in the Quinton's discord server.
+- Updated the version code and build number on the sitewide footer.
+- Updated `README.md` to reflect `v0.2.1.3`.
+- Added disclaimer to the `README.md`.
 ## Patch v0.2.1.2
 **Commit Date:** May 28th, 2025
 - Added new customer review to the `ratings.html` page.
