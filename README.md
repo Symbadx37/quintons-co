@@ -6,6 +6,13 @@ This website and associated location "Quinton's Burgers & Fries" is purely ficti
 This repository is an on-going side project for learning and practicing HTML, CSS, and JavaScript. The website is hosted using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.1.4
+**Commit Date:** September 15th, 2025
+- Disabled CAPTCHA for all form submissions to resolve internal service errors with form submission server.
+- Removed sensitive information from form elements on the `contact.html` and `ratings.html` pages.
+- Added two new customer reviews to the `ratings.html` page.
+- Updated the version code and build number on the sitewide footer.
+- Updated `README.md` to reflect `v0.2.1.4` changes.
 ## Patch v0.2.1.3
 **Commit Date:** September 4th, 2025
 - Added custom DNS to the repository: https://quintons.co. The old github.io DNS will now redirect to the new domain.
