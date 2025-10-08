@@ -7,38 +7,13 @@
     <link rel="stylesheet" href="../css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="../img/icons/icon-yellow_32x32.png">
     <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="../js/header-component.js" defer></script>
+    <script src="../js/footer-component.js" defer></script>
 </head>
 <body>
-    <!-- Header: SITEWIDE NAVBAR -->
-    <header>
-        <nav class="sitewide-navbar-grid-container">
-            <img class="sitewide-navbar-logo" src="../img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
-            <a class="sitewide-navbar-anchor_1" href="../index.html">Home</a>
-            <a class="sitewide-navbar-anchor_2" href="menu.html">Menu</a>
-            <a class="sitewide-navbar-anchor_3" href="err/503.html">About</a>
-            <a class="sitewide-navbar-anchor_4" href="contact.html" >Contact</a>
-            <a class="sitewide-navbar-anchor_5" href="err/503.html">Locations</a>
-            <a class="sitewide-navbar-anchor_6" href="ratings.html">Ratings</a>
-
-            <a class="sitewide-navbar-anchor_7" href="err/404.html">My Quinton's</a>
-            <a class="sitewide-navbar-icon" href="err/404.html">
-                <img src="../img/icons/shopping-cart-2.png" alt="Shopping Cart" width="40px">
-            </a>
-        </nav> 
-    </header>
-
-    <!-- Header: SITEWIDE INFOBAR -->
-    <header class="sitewide-infobar-grid-container">
-        <div class="sitewide-infobar-text">We've created a new page for customer ratings and testomonials. 
-            Not only is the layout improved, but there's also a dedicated form for submitting new customer
-            ratings. Just don't expect your review to be anywhere close to what you submitted if and when
-            it appears on our website. We literally can't make any promises your review will ever see the light of
-            day.</div>
-     </header>
-    
+    <header-component></header-component>
     <main class="main-content-wrapper">
         <section class="main-content-area">
-            <!-- Item Area: "Customer Ratings" -->
             <section>
                 <h1 class="heading-xlrg_500">Customer Ratings</h1>
                 <h2 class="heading-med_300">Trying to put the Quinton's experience into words? Need to put your near-death 
@@ -55,12 +30,9 @@
                         able to express how you truly feel about our business. We can't wait to hear about your
                         totally genuine experience at Quinton's!</p>
             </section>
-
-            <!-- Item Area: "Customer Testomonials" -->
             <section>
                 <h1 class="heading-lrg_400">Customer Testomonials</h1>
                 <h1 class="heading-sml_300">See how much our terrible customers like to complain!</h1>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Amazing Chefs</h1>
                     <div class="review-rating-img">
@@ -71,7 +43,6 @@
                         uh uh is."</p>
                     <p>Bill Wright on <span class="review-date-text">June 6th, 2024</p>
                 </div>
-                    
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Great Service If You Never Order</h1>
                     <div class="review-rating-img">
@@ -82,7 +53,6 @@
                         have anything to worry about!"</p>
                     <p>Cornelius Popston on <span class="review-date-text">January 20th, 2024</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">I Would Recommend This Resturant To My Grandma</h1>
                     <div class="review-rating-img">
@@ -92,7 +62,6 @@
                         it for yourself if you haven't already."</p>
                     <p>Jamie Underwood on <span class="review-date-text">February 11th, 2025</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Great Food If You Don't Mind Going Broke</h1>
                     <div class="review-rating-img">
@@ -105,7 +74,6 @@
                         teenagers. Visit at your own risk."</p>
                     <p>Johnathan Paradon on <span class="review-date-text">February 11th, 2025</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Management Staff Are Never There</h1>
                     <div class="review-rating-img">
@@ -115,7 +83,6 @@
                         fast food again than go to Quinton's."</p>
                     <p>Karen Mansen on <span class="review-date-text">August 17th, 2024</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Best Resturant I've Ever Eaten At</h1>
                     <div class="review-rating-img">
@@ -134,7 +101,6 @@
                         sight."</p>
                     <p>Lucatio Problemo on <span class="review-date-text">December 5th, 2024</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Do Not Visit, You Will Probably Die</h1>
                     <div class="review-rating-img">
@@ -149,7 +115,6 @@
                         again. Stay away for your own safety and sanity."</p>
                     <p>Mason Fakeson on <span class="review-date-text">September 31st, 2024</p>
                 </div>
-            
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Good For My Mouth, Bad For My Toilet</h1>
                     <div class="review-rating-img">
@@ -160,7 +125,6 @@
                         zen. A solid 3/4."</p>
                     <p>Nicolas Penguman on <span class="review-date-text">February 26th, 2025</p>
                 </div>
-                
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">I'd Rather Die From Cancer Than Eat Here</h1>
                     <div class="review-rating-img">
@@ -174,7 +138,6 @@
                         whatever your name is, please just jump off a bridge."</p>
                     <p>Ethan Mansen on <span class="review-date-text">March 23rd, 2025</p>
                 </div>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">Best Fast Food I've Ever Eaten</h1>
                     <div class="review-rating-img">
@@ -207,7 +170,6 @@
                         this restaurant a well-deserved 5 out of 5 stars."</p>
                     <p>Flavius Constantinus on <span class="review-date-text">March 25th, 2025</p>
                 </div>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">In Complete Shambles</h1>
                     <div class="review-rating-img">
@@ -222,7 +184,6 @@
                         and not to mention the ceiling nearly collapsed on me, never returning."</p>
                     <p>Ethan Browne on <span class="review-date-text">April 18th, 2025</p>
                 </div>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">A Life-Changing Experience</h1>
                     <div class="review-rating-img">
@@ -245,7 +206,6 @@
                         Quinton's is easily the greatest restaurant I've ever been to, 5 out of 5 stars from me."</p>
                     <p> Iguaneous Mann on <span class="review-date-text">May 26th, 2025</p>
                 </div>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">They put BUGS in my CHEESEBURGER. I was EMBERASSED.</h1>
                     <div class="review-rating-img">
@@ -258,7 +218,6 @@
                         the building in absolute horror, ashamed and humiliated."</p>
                     <p>John Silksong on <span class="review-date-text">September 15th, 2025</p>
                 </div>
-
                 <div class="rating-container">
                     <h1 class="heading-sml_400" style="margin-top: 0.25rem;">The food is alive (literally)</h1>
                     <div class="review-rating-img">
@@ -271,8 +230,6 @@
                     <p>John Estaban on <span class="review-date-text">September 15th, 2025</p>
                 </div>
             </section>
-
-            <!-- Form Area: "Write A Review" -->
             <section>
                 <h2 class="heading-lrg_400" style="margin-top: 1.5rem;">Write A Review</h2>
                 <h3 class="heading-sml_300">Fill out the details below:</h3>
@@ -280,15 +237,12 @@
                     <label for="rating-first-name" id="rating-form-grid-item_1">First Name<span style="font-size: 0.90rem;">*</span></label>
                     <input required type="text" name="First-Name" id="rating-form-grid-item_2" 
                         placeholder="John">
-            
                     <label for="rating-last-name" id="rating-form-grid-item_3">Last Name<span style="font-size: 0.90rem;">*</span></label>
                     <input required type="text" name="Last-Name" id="rating-form-grid-item_4"
                         placeholder="Doe">
-
                     <label for="review-title" id="rating-form-grid-item_5">Review Title<span style="font-size: 0.90rem;">*</span></label>
                     <input required type="text" name="Review-Title" id="rating-form-grid-item_6"
                         placeholder="My Experience At Quinton's ...">
-
                     <label for="rating" id="rating-form-grid-item_7">Rating<span style="font-size: 0.90rem;">*</span></label>
                     <select required name="Rating" id="rating-form-grid-item_8" class="form-select-container">
                         <option selected disabled hidden value="">Choose Rating ...</option>
@@ -298,13 +252,10 @@
                         <option class="form-option">★★★★</option>
                         <option class="form-option">★★★★★</option>
                     </select>
-
                     <label for="rating-message" id="rating-form-grid-item_9">Review Message<span style="font-size: 0.90rem;">*</span></label>
                     <textarea required name="Message" id="rating-form-grid-item_10" placeholder="Write your review here ..." style="resize: none;"></textarea>
-                
                     <input type="submit" value="Submit Form" id="rating-form-grid-item_11" class="link-button">
                     <input type="reset" value="Clear Form" id="rating-form-grid-item_12" class="link-button">
-
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_subject" value="New Customer Review">   
                     <input type="hidden" name="_next" value="https://quintons.co/pgs/form/submission.html">
@@ -314,8 +265,6 @@
                     yes, we sell all of<br> your personal information to third-parties.</p>
             </section>
         </section>
-
-        <!-- Sidebar: "Who We Are" & "Our Hours" & "Contact Us" -->
         <aside class="main-content-sidebar">
             <section>
                 <h1 class="heading-lrg_500">Who We Are</h1>
@@ -324,7 +273,6 @@
                     California where nothing ever goes <del>right</del> wrong! Come visit one of our locations today,
                     we guarantee you'll have a totally regrettable experience!
                 </p>
-
                 <h1 class="heading-lrg_500">Our Hours</h1>
                 <p>Monday:</span> 3:11 AM - 11:59 AM<span style="font-size: 0.90rem;">*</span></p>
                 <p>Tuesday:</span> CLOSED</p>
@@ -336,7 +284,6 @@
                 <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
                     *</span>Operating hours may differ depending on location and the CEO's current mood.
                 </p>
-                
                 <h1 class="heading-lrg_500">Contact Us</h1>
                 <h2 class="heading-sml_400">General Info:</h2>
                 <p>Business Line: (602) 896-4219<span style="font-size: 0.90rem;">*</span></p>
@@ -352,59 +299,9 @@
             </section>
         </aside>
     </main>
-
-    <!-- Footer: SITEWIDE FOOTER -->
-    <footer class="sitewide-footer-grid-container">
-        <div class="sitewide-footer-grid-item_1">
-            <p class="sitewide-footer-heading-text" style="font-size: 1.25rem; font-weight: 500; margin: 0.15rem 0.25rem 0.15rem 0.25rem;">
-                Quinton's Burgers & Fries</p>
-            <p style="margin: 0 0.25rem 0.40rem 0.25rem;">Established 2024</p>
-                <div style="margin: 0 0.25rem 0 0.25rem;">
-                    <a class="icon-anchor" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                        <img src="../img/icons/icon-youtube_512x512.png" width="23px" alt="YouTube">
-                    </a>
-                    <a class="icon-anchor" href="pgs/err/404.html">
-                        <img src="../img/icons/icon-facebook_512x512.png" width="23px" alt="Facebook">
-                    </a>
-                    <a class="icon-anchor" href="https://discord.gg/RP3RckzfnX">
-                        <img src="../img/icons/icon-discord_512x512.png" width="23px" alt="Discord">
-                    </a>
-                    <a class="icon-anchor" href="https://github.com/Symbadx37/symbadx37.github.io">
-                        <img src="../img/icons/icon-github_512x512.png" width="23px" alt="GitHub">
-                    </a>
-                </div>
-            </div>
-
-        <div class="sitewide-footer-grid-item_2">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Services</p>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">My Quinton's</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/503.html">Quinton's PLUS</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Quinton's DLC</a><br>
-            <a class="sitewide-footer-anchor-text" href="https://r.mtdv.me/quintons-employment-application">Employment</a>
-        </div>
-        <div class="sitewide-footer-grid-item_3">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Company</p>
-            <a class="sitewide-footer-anchor-text" href="err/503.html">Our Story</a><br>
-            <a class="sitewide-footer-anchor-text" href="contact.html">Contact Info</a><br>
-            <a class="sitewide-footer-anchor-text" href="ratings.html">Write A Review</a><br>
-            <a class="sitewide-footer-anchor-text" href="contact.html">File A Complaint</a>
-        </div>
-        <div class="sitewide-footer-grid-item_4" style="position: relative; bottom: 9px; left: 5px;">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Business</p>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Anti-Privacy Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/503.html">Corporate Health Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Terms and Conditions</a>
-        </div>
-        <div class="sitewide-footer-grid-item_5">
-            <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
-        </div>
-        <div class="sitewide-footer-grid-item_6">
-           <p class="sitewide-footer-border-text">Website 0.2.1.4 25915P</p> 
-        </div>
-    </footer>
+    <footer-component></footer-component>
 </body>
 </html>
-
 <style>
     #rating-form-container {
         display: grid;

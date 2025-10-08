@@ -7,223 +7,143 @@
     <link rel="stylesheet" href="../../css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="../../img/icons/icon-yellow_32x32.png">
     <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="../../js/header-component.js" defer></script>
+    <script src="../../js/footer-component.js" defer></script>
 </head>
 <body>
-    <!-- Header: SITEWIDE NAVBAR -->
-    <header>
-        <nav class="sitewide-navbar-grid-container">
-            <img class="sitewide-navbar-logo" src="../../img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
-            <a class="sitewide-navbar-anchor_1" href="../../index.html">Home</a>
-            <a class="sitewide-navbar-anchor_2" href="../menu.html">Menu</a>
-            <a class="sitewide-navbar-anchor_3" href="../err/503.html">About</a>
-            <a class="sitewide-navbar-anchor_4" href="../contact.html" >Contact</a>
-            <a class="sitewide-navbar-anchor_5" href="../err/503.html">Locations</a>
-            <a class="sitewide-navbar-anchor_6" href="../ratings.html">Ratings</a>
-
-            <a class="sitewide-navbar-anchor_7" href="../err/404.html">My Quinton's</a>
-            <a class="sitewide-navbar-icon" href="../err/404.html">
-                <img src="../../img/icons/shopping-cart-2.png" alt="Shopping Cart" width="40px">
-            </a>
-        </nav> 
-    </header>
-
-    <!-- Header: SITEWIDE INFOBAR -->
-    <header class="sitewide-infobar-grid-container">
-        <div class="sitewide-infobar-text">Our menu has been completely redone! Not only are there more horrendous items to choose from,
-            but there's a new website layout as well! Check it out!</div> 
-     </header>
-
-<!-- Main Page Content --> 
-<main class="main-content-wrapper">
-
-    <!-- Menu: "Sandwiches" -->
-    <section class="main-content-area">  
-        <h1 class="heading-xlrg_500">Sandwiches</h1>
-        <h2 class="heading-med_300">Browse our entire catalog of misfit sandwiches and subs that only exist on our menu because of legal
-            blackmail and mentally insane and psychotic customers who have no grasp on reality or the concept of corporate branding.</h2>
-        <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
-            Warning:</span> Quinton's Co. is not responsible for any chronic conditions or bodily injuries that may result from consumption
-            of sold food items. Order and consume at high risk with no caution and/or discretion, because we wouldn't make any money if you
-            didn't. For a full list of health concerns, please consult our <a href="../err/503.html">Corporate Health Policy</a> for more details.
-        </p>
-
-        <!-- Item Area: "Chicken Sandwich" -->
-        <div class="menu-container">
-            <div>
-                <img src="../../img/menu/sandwich-2.webp" alt="Chicken Sandwich" class="menu-image-container">
-            </div>
-            <div>
-                <h1 class="menu-item-text">Chicken Sandwich</h1>
-                <p class="menu-calories-text">439 Cal.</p>
-                <div class="menu-paragraph-text">
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Price:</span> $31.99 each
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Description:</span> We were legally blackmailed by our board executives to add this food item to
-                        our menu, for all those people who show up to a burger restaurant and then order a chicken
-                        based product. It's borderline insanity. And that's saying something, especially coming
-                        from us.
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Ingredients:</span> Meat-Product: Beef, Pork, Chicken, Phosphoric Acid, Asbestos, Sodium
-                        Hypochlorite, Salt; Bread-Product: Enriched Bleached Wheat Flour, Yeast, Seseame Seed, High
-                        Fructose Corn Syrup, Heroin, Dextrose, Ascorbic Acid; Lettuce, Ketchup-Product: Tomato, Water,
-                        Tomato Puree, Cold Medicine, Ethylene Glycol, Corn Syrup, Vinnegar, Radon; Pickle, Tomato,
-                        <a href="../err/404.html">+99 More.</a> 
-                    </p>
+    <header-component></header-component> 
+    <main class="main-content-wrapper">
+        <section class="main-content-area">  
+            <h1 class="heading-xlrg_500">Sandwiches</h1>
+            <h2 class="heading-med_300">Browse our entire catalog of misfit sandwiches and subs that only exist on our menu because of legal
+                blackmail and mentally insane and psychotic customers who have no grasp on reality or the concept of corporate branding.</h2>
+            <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
+                Warning:</span> Quinton's Co. is not responsible for any chronic conditions or bodily injuries that may result from consumption
+                of sold food items. Order and consume at high risk with no caution and/or discretion, because we wouldn't make any money if you
+                didn't. For a full list of health concerns, please consult our <a href="../err/503.html">Corporate Health Policy</a> for more details.
+            </p>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/sandwich-2.webp" alt="Chicken Sandwich" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Chicken Sandwich</h1>
+                    <p class="menu-calories-text">439 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $31.99 each
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> We were legally blackmailed by our board executives to add this food item to
+                            our menu, for all those people who show up to a burger restaurant and then order a chicken
+                            based product. It's borderline insanity. And that's saying something, especially coming
+                            from us.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Meat-Product: Beef, Pork, Chicken, Phosphoric Acid, Asbestos, Sodium
+                            Hypochlorite, Salt; Bread-Product: Enriched Bleached Wheat Flour, Yeast, Seseame Seed, High
+                            Fructose Corn Syrup, Heroin, Dextrose, Ascorbic Acid; Lettuce, Ketchup-Product: Tomato, Water,
+                            Tomato Puree, Cold Medicine, Ethylene Glycol, Corn Syrup, Vinnegar, Radon; Pickle, Tomato,
+                            <a href="../err/404.html">+99 More.</a> 
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Item Area: "Fish Sandwich" -->
-        <div class="menu-container">
-            <div>
-                <img src="../../img/menu/sandwich-3.webp" alt="Fish Sandwich" class="menu-image-container">
-            </div>
-            <div>
-                <h1 class="menu-item-text">Fish Sandwich</h1>
-                <p class="menu-calories-text">764 Cal.</p>
-                <div class="menu-paragraph-text">
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Price:</span> $36.99 each
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Description:</span> A worthy alternative to our burgers (or not). All of our fish products are
-                        farm raised in plastic kiddie pools, which are always overcrowded and unsanitary
-                        (which is literally off the charts). In addition, all farm-raised fish are always on the
-                        max amount of fully toxic pro-biotics and pro-viral compounds, so you'll always contract
-                        severe food posioning after consuming, every single time.
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Ingredients:</span> Rotten Farm-Grown Flounder, Bread-Product: Enriched Bleached Wheat Flour,
-                        Yeast, Seseame Seed, High Fructose Corn Syrup, Heroin, Dextrose, Ascorbic Acid; Cyanide, Lettuce,
-                        Sodium Stearoyl Lactylate, Calcium Propionate, Mayonaise-Product: Rotten Egg, Paint Primer, Bleach,
-                        Vinegar, Cocaine; Salt, <a href="../err/404.html">+99 More.</a> 
-                    </p>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/sandwich-3.webp" alt="Fish Sandwich" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Fish Sandwich</h1>
+                    <p class="menu-calories-text">764 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $36.99 each
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> A worthy alternative to our burgers (or not). All of our fish products are
+                            farm raised in plastic kiddie pools, which are always overcrowded and unsanitary
+                            (which is literally off the charts). In addition, all farm-raised fish are always on the
+                            max amount of fully toxic pro-biotics and pro-viral compounds, so you'll always contract
+                            severe food posioning after consuming, every single time.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Rotten Farm-Grown Flounder, Bread-Product: Enriched Bleached Wheat Flour,
+                            Yeast, Seseame Seed, High Fructose Corn Syrup, Heroin, Dextrose, Ascorbic Acid; Cyanide, Lettuce,
+                            Sodium Stearoyl Lactylate, Calcium Propionate, Mayonaise-Product: Rotten Egg, Paint Primer, Bleach,
+                            Vinegar, Cocaine; Salt, <a href="../err/404.html">+99 More.</a> 
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-         <!-- Item Area: "Rick Roll" -->
-         <div class="menu-container">
-            <div>
-                <img src="../../img/menu/sandwich-1.webp" alt="Rick Roll" class="menu-image-container">
-            </div>
-            <div>
-                <h1 class="menu-item-text">Rick Roll</h1>
-                <p class="menu-calories-text">1987 Cal.</p>
-                <div class="menu-paragraph-text">
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Price:</span> $3.33 each
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Description:</span> A good-looking but terrible-tasting sub sandwich with ultra-processed meat,
-                        bread, and genetically engineered vegetables that definitely has no correlation whatsoever
-                        with any famous, British pop singers with four letter first names and sick dance moves.
-                        After all, we're no strangers when it comes to offering off-brand food items on our menu.
-                        We both don't know the rules, because they don't exist when it comes to fast food.
-                        This sub is a perfect example, as we're offering a full commitment to always providing terrible,
-                        low-quality, and ultra-processed food on our menu for centuries to come. You wouldn't get this kind
-                        of guarantee from any other fast food company on the planet.
-                    </p>
-                    <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                        Ingredients:</span> Meat-Product: Beef, Pork, Chicken, Phosphoric Acid, Asbestos, Sodium Hypochlorite,
-                        Salt; Bread-Product: Enriched Bleached Wheat Flour, Yeast, Seseame Seed, High Fructose Corn Syrup,
-                        Heroin, Dextrose, Ascorbic Acid; Orange Cheese-Product: Spoiled Milk, Cream, Vaseline, Sodium Citrate,
-                        Salt, Fluoride, Soy Lecithin, Unnatural Flavoring, Propionic Acid; Lettuce, Red Onion, Red Bell Pepper,
-                        Orange Bell Pepper, Arsenic, Yellow Bell Pepper, Lead, Tomato, Pickle, <a href="../err/404.html">+99 More.</a> 
-                    </p>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/sandwich-1.webp" alt="Rick Roll" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Rick Roll</h1>
+                    <p class="menu-calories-text">1987 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $3.33 each
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> A good-looking but terrible-tasting sub sandwich with ultra-processed meat,
+                            bread, and genetically engineered vegetables that definitely has no correlation whatsoever
+                            with any famous, British pop singers with four letter first names and sick dance moves.
+                            After all, we're no strangers when it comes to offering off-brand food items on our menu.
+                            We both don't know the rules, because they don't exist when it comes to fast food.
+                            This sub is a perfect example, as we're offering a full commitment to always providing terrible,
+                            low-quality, and ultra-processed food on our menu for centuries to come. You wouldn't get this kind
+                            of guarantee from any other fast food company on the planet.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Meat-Product: Beef, Pork, Chicken, Phosphoric Acid, Asbestos, Sodium Hypochlorite,
+                            Salt; Bread-Product: Enriched Bleached Wheat Flour, Yeast, Seseame Seed, High Fructose Corn Syrup,
+                            Heroin, Dextrose, Ascorbic Acid; Orange Cheese-Product: Spoiled Milk, Cream, Vaseline, Sodium Citrate,
+                            Salt, Fluoride, Soy Lecithin, Unnatural Flavoring, Propionic Acid; Lettuce, Red Onion, Red Bell Pepper,
+                            Orange Bell Pepper, Arsenic, Yellow Bell Pepper, Lead, Tomato, Pickle, <a href="../err/404.html">+99 More.</a> 
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Sidebar: "Who We Are" & "Our Hours" & "Contact Us" -->
-    <aside class="main-content-sidebar">
-        <section>
-            <h1 class="heading-lrg_500">Who We Are</h1>
-            <h2 class="heading-sml_400">Welcome to Quinton's!</h2>
-            <p>We're a booming start-up fast food chain based in southern 
-                California where nothing ever goes <del>right</del> wrong! Come visit one of our locations today,
-                we guarantee you'll have a totally regrettable experience!
-            </p>
-
-            <h1 class="heading-lrg_500">Our Hours</h1>
-            <p>Monday:</span> 3:11 AM - 11:59 AM<span style="font-size: 0.90rem;">*</span></p>
-            <p>Tuesday:</span> CLOSED</p>
-            <p>Wednesday:</span> 9:00 AM - 6:00 PM<span style="font-size: 0.90rem;">*</span></p>
-            <p>Thursday:</span> 2:14 AM - 3:68 AM</p>
-            <p>Friday:</span> 5:00 PM - 5:02 PM</p>
-            <p>Saturday:</span> 1:11 PM - 1:11 AM<span style="font-size: 0.90rem;">*</span></p>
-            <p>Sunday:</span> CLOSED</p>
-            <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
-                *</span>Operating hours may differ depending on location and the CEO's current mood.
-            </p>
-            
-            <h1 class="heading-lrg_500">Contact Us</h1>
-            <h2 class="heading-sml_400">General Info:</h2>
-           <p>Business Line: (602) 896-4219<span style="font-size: 0.90rem;">*</span></p>
-            <p>Customer Support: (602) 647-1529<span style="font-size: 0.90rem;">*</span></p>
-            <p>Email: quintons.co@gmail.com</p>
-            <h2 class="heading-sml_400">Corporate Office:</h2>
-            <p>1432 N Profitmargin Rd.<br>
-                San Diego, CA 92104<br>
-            </p>
-            <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
-                *</span>For more details, please visit the main <a href="../contact.html">contact</a> page.
-            </p>
         </section>
-    </aside>
-</main>
-    <!-- Footer: SITEWIDE FOOTER -->
-    <footer class="sitewide-footer-grid-container">
-        <div class="sitewide-footer-grid-item_1">
-            <p class="sitewide-footer-heading-text" style="font-size: 1.25rem; font-weight: 500; margin: 0.15rem 0.25rem 0.15rem 0.25rem;">
-                Quinton's Burgers & Fries</p>
-            <p style="margin: 0 0.25rem 0.40rem 0.25rem;">Established 2024</p>
-                <div style="margin: 0 0.25rem 0 0.25rem;">
-                    <a class="icon-anchor" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                        <img src="../../img/icons/icon-youtube_512x512.png" width="23px" alt="YouTube">
-                    </a>
-                    <a class="icon-anchor" href="pgs/err/404.html">
-                        <img src="../../img/icons/icon-facebook_512x512.png" width="23px" alt="Facebook">
-                    </a>
-                    <a class="icon-anchor" href="https://discord.gg/RP3RckzfnX">
-                        <img src="../../img/icons/icon-discord_512x512.png" width="23px" alt="Discord">
-                    </a>
-                    <a class="icon-anchor" href="https://github.com/Symbadx37/symbadx37.github.io">
-                        <img src="../../img/icons/icon-github_512x512.png" width="23px" alt="GitHub">
-                    </a>
-                </div>
-            </div>
+        <aside class="main-content-sidebar">
+            <section>
+                <h1 class="heading-lrg_500">Who We Are</h1>
+                <h2 class="heading-sml_400">Welcome to Quinton's!</h2>
+                <p>We're a booming start-up fast food chain based in southern 
+                    California where nothing ever goes <del>right</del> wrong! Come visit one of our locations today,
+                    we guarantee you'll have a totally regrettable experience!
+                </p>
 
-        <div class="sitewide-footer-grid-item_2">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Services</p>
-            <a class="sitewide-footer-anchor-text" href="../err/404.html">My Quinton's</a><br>
-            <a class="sitewide-footer-anchor-text" href="../err/503.html">Quinton's PLUS</a><br>
-            <a class="sitewide-footer-anchor-text" href="../err/404.html">Quinton's DLC</a><br>
-            <a class="sitewide-footer-anchor-text" href="https://r.mtdv.me/quintons-employment-application">Employment</a>
-        </div>
-        <div class="sitewide-footer-grid-item_3">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Company</p>
-            <a class="sitewide-footer-anchor-text" href="../err/503.html">Our Story</a><br>
-            <a class="sitewide-footer-anchor-text" href="../contact.html">Contact Info</a><br>
-            <a class="sitewide-footer-anchor-text" href="../ratings.html">Write A Review</a><br>
-            <a class="sitewide-footer-anchor-text" href="../contact.html">File A Complaint</a>
-        </div>
-        <div class="sitewide-footer-grid-item_4" style="position: relative; bottom: 9px; left: 5px;">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Business</p>
-            <a class="sitewide-footer-anchor-text" href="../err/404.html">Anti-Privacy Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="../err/503.html">Corporate Health Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="../err/404.html">Terms and Conditions</a>
-        </div>
-        <div class="sitewide-footer-grid-item_5">
-            <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
-        </div>
-        <div class="sitewide-footer-grid-item_6">
-           <p class="sitewide-footer-border-text">Website 0.2.1.4 25915P</p> 
-        </div>
-    </footer>
+                <h1 class="heading-lrg_500">Our Hours</h1>
+                <p>Monday:</span> 3:11 AM - 11:59 AM<span style="font-size: 0.90rem;">*</span></p>
+                <p>Tuesday:</span> CLOSED</p>
+                <p>Wednesday:</span> 9:00 AM - 6:00 PM<span style="font-size: 0.90rem;">*</span></p>
+                <p>Thursday:</span> 2:14 AM - 3:68 AM</p>
+                <p>Friday:</span> 5:00 PM - 5:02 PM</p>
+                <p>Saturday:</span> 1:11 PM - 1:11 AM<span style="font-size: 0.90rem;">*</span></p>
+                <p>Sunday:</span> CLOSED</p>
+                <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
+                    *</span>Operating hours may differ depending on location and the CEO's current mood.
+                </p>
+                
+                <h1 class="heading-lrg_500">Contact Us</h1>
+                <h2 class="heading-sml_400">General Info:</h2>
+            <p>Business Line: (602) 896-4219<span style="font-size: 0.90rem;">*</span></p>
+                <p>Customer Support: (602) 647-1529<span style="font-size: 0.90rem;">*</span></p>
+                <p>Email: quintons.co@gmail.com</p>
+                <h2 class="heading-sml_400">Corporate Office:</h2>
+                <p>1432 N Profitmargin Rd.<br>
+                    San Diego, CA 92104<br>
+                </p>
+                <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
+                    *</span>For more details, please visit the main <a href="../contact.html">contact</a> page.
+                </p>
+            </section>
+        </aside>
+    </main>
+    <footer-component></footer-component> 
 </body>
 </html>

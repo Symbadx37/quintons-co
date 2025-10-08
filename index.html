@@ -7,34 +7,17 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="img/icons/icon-yellow_32x32.png">
     <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="js/header-component.js" defer></script>
+    <script src="js/footer-component.js" defer></script>
 </head> 
 <body>
-    <!-- Header: SITEWIDE NAVBAR -->
-    <header>
-        <nav class="sitewide-navbar-grid-container">
-            <img class="sitewide-navbar-logo" src="img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
-            <a class="sitewide-navbar-anchor_1" href="index.html">Home</a>
-            <a class="sitewide-navbar-anchor_2" href="pgs/menu.html">Menu</a>
-            <a class="sitewide-navbar-anchor_3" href="pgs/err/503.html">About</a>
-            <a class="sitewide-navbar-anchor_4" href="pgs/contact.html" >Contact</a>
-            <a class="sitewide-navbar-anchor_5" href="pgs/err/503.html">Locations</a>
-            <a class="sitewide-navbar-anchor_6" href="pgs/ratings.html">Ratings</a>
-
-            <a class="sitewide-navbar-anchor_7" href="pgs/err/404.html">My Quinton's</a>
-            <a class="sitewide-navbar-icon" href="pgs/err/404.html">
-                <img src="img/icons/shopping-cart-2.png" alt="Shopping Cart" width="40px">
-            </a>
-        </nav> 
-    </header>
-
-    <!-- Header: SITEWIDE INFOBAR -->
+    <header-component></header-component>
     <header class="sitewide-infobar-grid-container">
         <div class="sitewide-infobar-text">We've recently redone our entire website. On top of all the interface and layout changes, 
             there's also new webpages, food items, contact forms, resturant locations, and customer reviews; on top of a 
             bunch of other minor tweaks and improvements. You can view the entire list of changes <a href="https://monogr.ph/67c3080b98be8b2ff2b18a9b">
             here</a> or on our <a href="https://github.com/Symbadx37/symbadx37.github.io">GitHub</a> page. Thank you for being a horrible customer!</div>
      </header>
-
     <main>
         <section id="grid-container">
             <!-- Backsplash: "Quinton's Burgers & Fries" -->
@@ -44,7 +27,6 @@
                 <p>Come visit us today! We know you'll hate it here.</p>
                 <a class="link-button" href="pgs/err/503.html">Find A Location</a>
             </div>
-
             <!-- Seperator: "Welcome To Quinton's" -->
             <div id="grid-item_2" class="seperator-container">
                 <div class="seperator-border" style="background-color: rgb(200, 155, 8);"></div>
@@ -53,7 +35,6 @@
                     <p class="seperator-tagline" style="margin-top: 0; margin-bottom: 10px;">We're not glad you're here, we just want your money.</p>
                 </div>
             </div>
-
             <!-- Item Area: "Who We Are" -->
             <div id="grid-item_3">
                 <h1 class="heading-xlrg_500">Who We Are</h1>
@@ -63,7 +44,6 @@
                     and here at Quinton's, visiting us is always a horrendous, life-altering experience, every single time.</p>
                 <p class="paragraph_400">Click <a href="pgs/err/503.html">here</a> to learn more.</p>
             </div>
-
             <!-- Backsplash: "Eat At Quinton's" -->
             <div id="grid-item_4" class="backsplash-container_sml">
                 <h1 class="backsplash-heading">Eat At Quinton's</h1>
@@ -74,7 +54,6 @@
                 <p class="backsplash-paragraph_400">So what are you waiting for? Try Quinton's food today! What's the worst that could go wrong?</p>
                 <a class="link-button" href="pgs/menu.html">View Menu</a>
             </div>
-
             <!-- Backsplash: "Quinton's Meal Deals" -->
             <div id="grid-item_5" class="backsplash-container_sml">
                 <h1 class="backsplash-heading">Quinton's Meal Deals</h1>
@@ -85,7 +64,6 @@
                     not a scam!</p>
                 <a class="link-button" href="pgs/err/503.html">View Deals</a>
             </div>
-
             <!-- Backsplash: "Work At Quinton's" -->
             <div id="grid-item_6" class="backsplash-container_sml">
                 <h1 class="backsplash-heading">Work At Quinton's</h1>
@@ -97,7 +75,6 @@
                 <p class="backsplash-paragraph_400">We officially and legally promise that you'll never want to work in fast food again!</p>
                 <a class="link-button" href="https://r.mtdv.me/quintons-employment-application">Apply Now</a>
             </div>
-
             <!-- Item Area: "How We Operate" -->
             <div id="grid-item_7">
                 <h1 class="heading-xlrg_500">How We Operate</h1>
@@ -108,7 +85,6 @@
                     establishment, government-run insurance offices will give you literal whiplash.</p>
                 <p class="paragraph_400">Click <a href="pgs/err/503.html">here</a> to learn more.</p>
             </div>
-
             <!-- Seperator: "Contact Quinton's" -->
             <div id="grid-item_8" class="seperator-container">
                 <div class="seperator-border" style="background-color: rgb(79, 53, 5);"></div>
@@ -117,7 +93,6 @@
                     <p class="seperator-tagline" style="margin-top: 0; margin-bottom: 10px;">All of our staff are paper-shredder certified.</p>
                 </div>
             </div>
-
             <!-- Item Area: "Customer Complaints" -->
             <div id="grid-item_9">
                 <h1 class="heading-xlrg_500">Customer Complaints</h1>
@@ -129,16 +104,14 @@
                     to bother reading it, but at least it'll make you feel slightly better!</p>
                 <p class="paragraph_400">Click <a href="pgs/contact.html">here</a> to file a complaint.</p>
             </div>
-
-             <!-- Seperator: "Health & Nutrition" -->
-             <div id="grid-item_10" class="seperator-container">
+            <!-- Seperator: "Health & Nutrition" -->
+            <div id="grid-item_10" class="seperator-container">
                 <div class="seperator-border" style="background-color: rgb(16, 80, 4);"></div>
                 <div class>
                     <h1 class="seperator-heading" style="margin-top: 5px; margin-bottom: 3px;">Health & Nutrition</h1>
                     <p class="seperator-tagline" style="margin-top: 0; margin-bottom: 10px;">Our food is always the lowest quality possible.</p>
                 </div>
             </div>
-
             <!-- Backsplash: "Nutrition Facts" -->
             <div id="grid-item_11" class="backsplash-container_sml">
                 <h1 class="backsplash-heading">Nutrition Facts</h1>
@@ -150,7 +123,6 @@
                 <p class="backsplash-paragraph_450">We know you'll hate us after finding out what's really in your food, so that's why we're charging you for it!</p>
                 <a class="link-button" href="pgs/err/503.html">Learn More</a>
             </div>
-
             <!-- Seperator: "Legal Nonsense" -->
             <div id="grid-item_12" class="seperator-container">
                 <div class="seperator-border" style="background-color: rgb(200, 155, 8);"></div>
@@ -159,7 +131,6 @@
                     <p class="seperator-tagline" style="margin-top: 0; margin-bottom: 10px;">We've placed all our legal stuff at the bottom of the page so you won't read it.</p>
                 </div>
             </div>
-
             <!-- Item Area: "Company Disclaimer" -->
             <div id="grid-item_13">
                 <h1 class="heading-xlrg_500">Company Disclaimer</h1>
@@ -172,7 +143,6 @@
                     hateful, useless, and inexperienced as possible in order to ensure customers almost never come back. Quinton's Co. is not responsible for ...</p>
                 <p class="paragraph_400">View the full company disclaimer <a href="pgs/err/503.html">here</a>.</p>
             </div>
-
             <!-- Item Area: "Corporate Health Policy" -->
             <div id="grid-item_14">
                 <h1 class="heading-xlrg_500">Corporate Health Policy</h1>
@@ -185,59 +155,9 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer: SITEWIDE FOOTER -->
-    <footer class="sitewide-footer-grid-container">
-        <div class="sitewide-footer-grid-item_1">
-            <p class="sitewide-footer-heading-text" style="font-size: 1.25rem; font-weight: 500; margin: 0.15rem 0.25rem 0.15rem 0.25rem;">
-                Quinton's Burgers & Fries</p>
-            <p style="margin: 0 0.25rem 0.40rem 0.25rem;">Established 2024</p>
-                <div style="margin: 0 0.25rem 0 0.25rem;">
-                    <a class="icon-anchor" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                        <img src="img/icons/icon-youtube_512x512.png" width="23px" alt="YouTube">
-                    </a>
-                    <a class="icon-anchor" href="pgs/err/404.html">
-                        <img src="img/icons/icon-facebook_512x512.png" width="23px" alt="Facebook">
-                    </a>
-                    <a class="icon-anchor" href="https://discord.gg/RP3RckzfnX">
-                        <img src="img/icons/icon-discord_512x512.png" width="23px" alt="Discord">
-                    </a>
-                    <a class="icon-anchor" href="https://github.com/Symbadx37/symbadx37.github.io">
-                        <img src="img/icons/icon-github_512x512.png" width="23px" alt="GitHub">
-                    </a>
-                </div>
-            </div>
-
-        <div class="sitewide-footer-grid-item_2">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Services</p>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">My Quinton's</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/503.html">Quinton's PLUS</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Quinton's DLC</a><br>
-            <a class="sitewide-footer-anchor-text" href="https://r.mtdv.me/quintons-employment-application">Employment</a>
-        </div>
-        <div class="sitewide-footer-grid-item_3">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Company</p>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/503.html">Our Story</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/contact.html">Contact Info</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/ratings.html">Write A Review</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/contact.html">File A Complaint</a>
-        </div>
-        <div class="sitewide-footer-grid-item_4" style="position: relative; bottom: 9px; left: 5px;">
-            <p class="sitewide-footer-heading-text" style="margin-bottom: 0.05rem;">Business</p>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Anti-Privacy Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/503.html">Corporate Health Policy</a><br>
-            <a class="sitewide-footer-anchor-text" href="pgs/err/404.html">Terms and Conditions</a>
-        </div>
-        <div class="sitewide-footer-grid-item_5">
-            <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
-        </div>
-        <div class="sitewide-footer-grid-item_6">
-           <p class="sitewide-footer-border-text">Website 0.2.1.4 25915P</p> 
-        </div>
-    </footer>
+    <footer-component></footer-component> 
 </body> 
 </html> 
-
 <style>
 #grid-container {
     display: grid;

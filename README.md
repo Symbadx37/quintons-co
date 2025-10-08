@@ -6,13 +6,17 @@ This website and associated location "Quinton's Burgers & Fries" is purely ficti
 This repository is an on-going side project for learning and practicing HTML, CSS, and JavaScript. The website is hosted using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.1.5
+**Commit Date:** October 8th, 2025
+- Added 'js' folder to root for storing JavaScript files.
+- Refactored some HTML code and removed unecessary whitespace.
+- Added `header-component.js` and `footer-component.js` to allow for code resuability for both header and footer HTML components.
+- Fixed a minor typo on the `hamburgers.html` page.
 ## Patch v0.2.1.4
 **Commit Date:** September 15th, 2025
 - Disabled CAPTCHA for all form submissions to resolve internal service errors with form submission server.
 - Removed sensitive information from form elements on the `contact.html` and `ratings.html` pages.
 - Added two new customer reviews to the `ratings.html` page.
-- Updated the version code and build number on the sitewide footer.
-- Updated `README.md` to reflect `v0.2.1.4` changes.
 ## Patch v0.2.1.3
 **Commit Date:** September 4th, 2025
 - Added custom DNS to the repository: https://quintons.co. The old github.io DNS will now redirect to the new domain.
@@ -21,20 +25,14 @@ The full changelogs for all release versions are listed below in addition to the
 - Enabled CAPTCHA for all form submissions.
 - Updated redirect URL for all form submissions.
 - Added webhook link for displaying form submissions in the Quinton's discord server.
-- Updated the version code and build number on the sitewide footer.
-- Updated `README.md` to reflect `v0.2.1.3`.
 - Added disclaimer to the `README.md`.
 ## Patch v0.2.1.2
 **Commit Date:** May 28th, 2025
 - Added new customer review to the `ratings.html` page.
 - Corrected the customer name for the "In Complete Shambles" review on the `ratings.html` page.
-- Updated the version code and build number on the sitewide footer.
-- Updated `README.md` to reflect `v0.2.1.2` changes.
 ## Patch v0.2.1.1
 **Commit Date:** May 21st, 2025
 - Improved the wording of the newest customer review, 'In Complete Shambles' to grammatically flow better.
-- Updated the version code and build number on the sitewide footer.
-- Updated `README.md` to reflect `v0.2.1.1` changes.
 ## Minor Release v0.2.1.0
 **Commit Date:** May 21st, 2025
 - Added two new menu items to `condiments.html` page.
@@ -45,16 +43,13 @@ The full changelogs for all release versions are listed below in addition to the
 - Refactored a few classes in the external stylesheet.
 - Updated discord invite link on all pages.
 - Fixed a few minor typos.
-- Updated `README.md` to reflect `v0.2.1.0` changes.
 ## Patch v0.2.0.5
 **Commit Date:** March 25th, 2025
 - Added new customer review to the `ratings.html` page.
 - Updated the discord invite code for the sitewide footer on all respective pages.
-- Updated `README.md` to reflect `v0.2.0.5` changes.
 ## Patch v0.2.0.4
 **Commit Date:** March 24th, 2025
 - Added `LICENSE` file to root.
-- Updated `README.md` to reflect `v0.2.0.4` changes.
 ## Patch v0.2.0.3
 **Commit Date:** March 24th, 2025
 - Added an upscaled version (from 96x96 to 384x384) of the Quinton's favicon to the source code for future use.
@@ -62,7 +57,6 @@ The full changelogs for all release versions are listed below in addition to the
 - Created a new redirect page called `submission.html` for displaying after submitting a form.
 - Updated form settings in `contact.html` and `ratings.html` to redirect to `submission.html`.
 - Setup webhook in Quinton's Co. discord server for displaying repository actions and changes.
-- Updated `README.md` to reflect `v0.2.0.3` changes.
 ## Patch v0.2.0.2
 **Commit Date:** March 23rd, 2025
 - Minor code refactoring to `index.html`.
@@ -72,13 +66,11 @@ The full changelogs for all release versions are listed below in addition to the
 - Further optimized all background image assets to improve loading times.
 - Removed unused image assets from source code.
 - Increased height of form input containers on the `contact.html` page to prevent text clipping within the select field.
-- Updated `README.md` to reflect `v0.2.0.2` changes.
 ## Patch v0.2.0.1
 **Commit Date:** March 19th, 2025
 - Fixed minor grammatical errors on `sandwiches.html` and `condiments.html`.
 - Added anchor links for the sitewide navbar to `404.html` page.
 - Removed menu items `Ketchup Bottle` and `Special Sauce` from the `condiments.html` page. They will be added back in a minor update.
-- Updated `README.md` to reflect `v0.2.0.1` changes.
 ## Release v0.2.0
 **Commit Date:** March 19th, 2025
 ### General Changes
@@ -90,7 +82,6 @@ The full changelogs for all release versions are listed below in addition to the
 - Added `503.html` page.
 - Updated `404.html` page. Headings and text content were added.
 - Added five separate sub-menu pages: `beverages.html`, `condiments.html`, `fries.html`, `hamburgers.html`, and `sandwiches.html`.
-- Updated `README.md` to reflect `v0.2.0` changes.
 - Converted all large image files from `.png` to `.webp` to reduce overall file size.
 ### Directory Changes
 - Added `fnt` folder to contain `.ttf` files. Added `ShantellSans-VariableFont.ttf`and  `ShantellSans-Italic-VariableFont.ttf`. Added offline references to the `styles.css` file to both fonts.
@@ -132,7 +123,6 @@ The full changelogs for all release versions are listed below in addition to the
 - Added new folders to root.
 - Deleted `menu-exp.html` from root.
 - Added new CSS properties, `display: inline-block` and `min-width: 100%`, to `styles.css` to ensure proper element responsiveness.
-- Updated `README.md` to reflect `v0.1.6` changes.
 ## Release v0.1.5
 **Commit Date:** March 7th, 2025
 - Added backend support via a [third-party](https://formsubmit.co/) hoster. Form submissions now work when submitting a 'Customer Complaint' on the `contact-us.html` page.
@@ -166,4 +156,3 @@ The full changelogs for all release versions are listed below in addition to the
 - Created `main` branch and setup GitHub pages for the repository.
 - Uploaded source code files `index.html`, `menu.html`, `about-us.html`, `contact-us.html`, and `styles.css`.
 - Uploaded folders `css` and `img` for containing the external stylesheet and image assets respectively.
-
