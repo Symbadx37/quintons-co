@@ -4,12 +4,32 @@ let sessionData;
 // Active document deferred loader
 $(document).ready(function() {
     updateSession("refresh");
+    const activeWindow = window.location.href;
+    const mainWindow = "https://quintons.co"
+
     // Initialize and/or refresh session
     if (typeof localStorage.sessionData === "undefined") {
         let obj = new Session();
         Session.setData(obj);
         updateSession("refresh");
     }
+
+    /* FIX FAULTY CODE
+
+    // Redirect window if necessary
+    if (sessionData.modalState == 0 && activeWindow !== mainWindow) {
+        sessionData.redirectNeeded = true;
+        updateSession("save");
+    }
+    
+    if (sessionData.redirectNeeded) {
+        sessionData.redirectNeeded = false;
+        updateSession("save");
+        window.location.replace("https://quintons.co");
+    }
+
+    */
+    
     // Detect modal state
     if (sessionData.modalState == 0) {
         $("#modal-container").show();
@@ -36,7 +56,7 @@ function enableScroll() {
     window.onscroll = function () {};
 }
 
-// Automades session refreshing and saving
+// Automates session refreshing and saving
 function updateSession(functionID) {
     const setData = function() {
         Session.setData(sessionData);
@@ -51,7 +71,7 @@ function updateSession(functionID) {
             setData(); getData(); break;
     }
 }
-
+    
 // Disable console access
 window.addEventListener('keydown', function(event) {
     if (event.code === 'F12') {
@@ -79,7 +99,6 @@ $("#modal-buttons input").on({
         } else {
             sessionData.modalState = 2;
             updateSession("save");
-            window.location.replace("pgs/err/403.html");
             window.location.replace("https://quintons.co/pgs/err/403.html");
         }
     }

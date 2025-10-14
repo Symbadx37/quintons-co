@@ -1,6 +1,7 @@
 class Session {
     constructor() {
         this.modalState = 0;
+        this.redirectNeeded = false;
     }
     static setData(parsedJSON) {
         localStorage.setItem("sessionData", JSON.stringify(parsedJSON));

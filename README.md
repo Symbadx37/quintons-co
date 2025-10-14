@@ -6,6 +6,13 @@ This website and associated location "Quinton's Burgers & Fries" is purely ficti
 This repository is an on-going side project for learning and practicing HTML, CSS, and JavaScript. The website is hosted using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+## Patch v0.2.2.1
+**Commit Date:** October 14th, 2025
+- Reworded disclaimer text and fixed minor typos.
+- Changed the name of a menu item from "Chunk Of Cheese" to "Cheese Chunk".
+- Updated descrption of the "Cheese Chunk" menu item.
+- Updated calorie counts for both the "Cheese Chunk" and "Whole Lemons" menu items.
+- Fixed JavaScript bug where site scrolling would be disabled but no modal box would be displayed whenever the user was on a different page than the `index.html` page.
 ## Minor Release v0.2.2.0
 **Commit Date:** October 13th, 2025
 - Added disclaimer modal dialog box.
