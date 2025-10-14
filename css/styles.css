@@ -35,6 +35,13 @@
 }
 .icon-anchor:hover {
     filter: invert(80%);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.link-anchor:hover {
+    color:rgb(223, 173, 9);
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
 .form-select-container, .form-option, .form-text-field {
     font-family: "Shantell Sans";
@@ -62,17 +69,20 @@
     margin-right: 10px;
 }
 .link-button {
+    transition-duration: 0.3s;
     font-family: "Shantell Sans";
     background-color: #000;
     text-decoration: none;
     display: inline-block;
     color: #fff;
+    border: none;
     border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.25rem;
     font-weight: 400;
+    cursor: pointer;
 }
 .link-button:hover {
-    background-color: #333;
+    background-color: #484848;
 }
 .sitewide-infobar-grid-container {
     background-color: rgb(223, 173, 9);
@@ -109,6 +119,7 @@
 .sitewide-navbar-anchor_1:hover, .sitewide-navbar-anchor_2:hover, .sitewide-navbar-anchor_3:hover, .sitewide-navbar-anchor_4:hover,
 .sitewide-navbar-anchor_5:hover, .sitewide-navbar-anchor_6:hover, .sitewide-navbar-anchor_7:hover {
    color: #fff;
+   transition-duration: 0.2s;
 }
 .sitewide-navbar-icon {
     position: relative;
@@ -117,6 +128,27 @@
 }
 .sitewide-navbar-icon:hover {
     filter: invert(100%);
+    transition-duration: 0.2s;
+}
+.menu-navbar-anchor {
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+}
+.menu-navbar-anchor:hover {
+    background-color: #e8e6e6;
+}
+.menu-navbar-item-text {
+    font-family: "Shantell Sans";
+    text-align: center;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 5px !important;
+    position: relative;
+    bottom: 15px;
 }
 .seperator-container {
     text-align: center;
@@ -265,6 +297,7 @@
 }
 .sitewide-footer-anchor-text:hover {
     color: #a6a3a3;
+    transition-duration: 0.2s;
 }
 .heading-sml_300, .heading-sml_400, .heading-sml_500, .heading-med_300, .heading-med_400, 
 .heading-med_500, .heading-lrg_300, .heading-lrg_400, .heading-lrg_500, .heading-xlrg_500 {

@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="../img/icons/icon-yellow_32x32.png">
-    <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <script src="../js/header-component.js" defer></script>
     <script src="../js/footer-component.js" defer></script>
+    <script src="../js/session.js" defer></script>
+    <script src="../js/main.js" defer></script>
 </head>
 <body>
     <header-component></header-component>
@@ -22,32 +24,32 @@
                 health problems upon consumption, including but not limited to: stroke, heart attack, diabetes, hypertension,
                 explosive diarrhea, heart disease, paralysis, asphyxiation, chronic implosion, hyperthermia, or death. Please
                 consume with no discretion because we wouldn't make any money if you didn't. For further details, please
-                consult our <a href="err/503.html">Corporate Health Policy</a>.
+                consult our <a class="link-anchor" href="err/503.html">Corporate Health Policy</a>.
             </p>
             <h1 class="heading-lrg_500">Menu Categories</h1>
             <div id="menu-navbar-container">
-                <a id="menu-navbar-anchor" href="sub-menu/hamburgers.html">
+                <a class="menu-navbar-anchor" href="sub-menu/hamburgers.html">
                     <img src="../img/menu/select/hamburgers.webp" width="120px" style="position: relative; top: 5px; left: 17.5px;">
-                    <p id="menu-navbar-item-text">Hamburgers</p>  
+                    <p class="menu-navbar-item-text">Hamburgers</p>  
                 </a>
-                <a id="menu-navbar-anchor" href="sub-menu/sandwiches.html">
+                <a class="menu-navbar-anchor" href="sub-menu/sandwiches.html">
                     <img src="../img/menu/select/sandwiches.webp" width="120px" style="position: relative; top: 5px; left: 15px;">
-                    <p id="menu-navbar-item-text">Sandwiches</p>
+                    <p class="menu-navbar-item-text">Sandwiches</p>
                 </a>
-                <a id="menu-navbar-anchor" href="sub-menu/fries.html">
+                <a class="menu-navbar-anchor" href="sub-menu/fries.html">
                     <img src="../img/menu/select/fries.webp" width="110px" style="position: relative; top: 10px; left: 25px;">
-                    <p id="menu-navbar-item-text" style="margin-top: 27px;">Fries & Sides</p>
+                    <p class="menu-navbar-item-text" style="margin-top: 27px;">Fries & Sides</p>
                 </a>
-                <a id="menu-navbar-anchor" href="sub-menu/beverages.html">
+                <a class="menu-navbar-anchor" href="sub-menu/beverages.html">
                     <img src="../img/menu/select/beverages.webp" width="110px" style="position: relative; top: 10px; left: 22px;">
-                    <p id="menu-navbar-item-text" style="margin-top: 27px;">Beverages</p>
+                    <p class="menu-navbar-item-text" style="margin-top: 27px;">Beverages</p>
                 </a>
-                <a id="menu-navbar-anchor" href="sub-menu/condiments.html">
+                <a class="menu-navbar-anchor" href="sub-menu/condiments.html">
                     <img src="../img//menu/select/condiments.webp" width="110px" style="position: relative; top: 17px; left: 25px;">
-                    <p id="menu-navbar-item-text" style="margin-top: 27px;">Condiments</p>
+                    <p class="menu-navbar-item-text" style="margin-top: 27px;">Condiments</p>
                 </a>
             </div>
-            <p>More ultra-processed, life-threatening menu items are coming soon! Click <a href="err/404.html">here</a> for more details.</p>
+            <p>More ultra-processed, life-threatening menu items are coming soon! Click <a class="link-anchor" href="err/404.html">here</a> for more details.</p>
         </section>
         <aside class="main-content-sidebar">
             <section>
@@ -78,7 +80,7 @@
                     San Diego, CA 92104<br>
                 </p>
                 <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
-                    *</span>For more details, please visit the main <a href="contact.html">contact</a> page.
+                    *</span>For more details, please visit the main <a class="link-anchor" href="contact.html">contact</a> page.
                 </p>
             </section>
         </aside>
@@ -93,23 +95,5 @@
     grid-template-columns: repeat(auto-fill, minmax(160px, 160px));
     grid-gap: 25px;
     margin: 10px 10px 15px 10px;
-}
-#menu-navbar-anchor {
-    text-decoration: none;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
-    border-radius: 0.5rem;
-}
-#menu-navbar-anchor:hover {
-    background-color: #e8e6e6;
-}
-#menu-navbar-item-text {
-    font-family: "Shantell Sans";
-    text-align: center;
-    color: #000;
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin-bottom: 5px !important;
-    position: relative;
-    bottom: 15px;
 }
 </style>

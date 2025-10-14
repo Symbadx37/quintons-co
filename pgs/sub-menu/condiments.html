@@ -6,35 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="../../img/icons/icon-yellow_32x32.png">
-    <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <script src="../../js/header-component.js" defer></script>
     <script src="../../js/footer-component.js" defer></script>
+    <script src="../../js/session.js" defer></script>
+    <script src="../../js/main.js" defer></script>
 </head>
 <body>
-    <!-- Header: SITEWIDE NAVBAR -->
-    <header>
-        <nav class="sitewide-navbar-grid-container">
-            <img class="sitewide-navbar-logo" src="../../img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
-            <a class="sitewide-navbar-anchor_1" href="../../index.html">Home</a>
-            <a class="sitewide-navbar-anchor_2" href="../menu.html">Menu</a>
-            <a class="sitewide-navbar-anchor_3" href="../about.html">About</a>
-            <a class="sitewide-navbar-anchor_4" href="../contact.html" >Contact</a>
-            <a class="sitewide-navbar-anchor_5" href="../err/404.html">Locations</a>
-            <a class="sitewide-navbar-anchor_6" href="../ratings.html">Ratings</a>
-
-            <a class="sitewide-navbar-anchor_7" href="../err/404.html">My Quinton's</a>
-            <a class="sitewide-navbar-icon" href="../err/404.html">
-                <img src="../../img/icons/shopping-cart-2.png" alt="Shopping Cart" width="40px">
-            </a>
-        </nav> 
-    </header>
-
-    <!-- Header: SITEWIDE INFOBAR -->
-    <header class="sitewide-infobar-grid-container">
-        <div class="sitewide-infobar-text">Our menu has been completely redone! Not only are there more horrendous items to choose from,
-            but there's a new website layout as well! Check it out!</div> 
-        </header>
-
+    <header-component></header-component>
     <main class="main-content-wrapper">
         <section class="main-content-area">  
             <h1 class="heading-xlrg_500">Condiments</h1>
@@ -43,7 +22,7 @@
             <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
                 Warning:</span> Quinton's Co. is not responsible for any chronic conditions or bodily injuries that may result from consumption
                 of sold food items. Order and consume at high risk with no caution and/or discretion, because we wouldn't make any money if you
-                didn't. For a full list of health concerns, please consult our <a href="../err/503.html">Corporate Health Policy</a> for more details.
+                didn't. For a full list of health concerns, please consult our <a class="link-anchor" href="../err/503.html">Corporate Health Policy</a> for more details.
             </p>
             <div class="menu-container">
                 <div>
@@ -67,7 +46,7 @@
                             home, or else we're going throw you out the front window. You've been warned. </span> 
                         </p>
                         <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                            Ingredients:</span> Ketchup-Product: Tomato, Water, Tomato Puree, Cold Medicine, Ethylene Glycol, Corn Syrup, Vinnegar, Radon, <a href="../err/404.html">+99 More.</a> 
+                            Ingredients:</span> Ketchup-Product: Tomato, Water, Tomato Puree, Cold Medicine, Ethylene Glycol, Corn Syrup, Vinnegar, Radon, <a class="link-anchor" href="../err/404.html">+99 More.</a> 
                         </p>
                     </div>
                 </div>
@@ -115,7 +94,7 @@
                         </p>
                         <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
                             Ingredients:</span> Milk-Product: Rotten Cow Milk, Spoiled Goat Milk, Bleached Rat Milk, Arsenic, White Paint; Water, 
-                            Cream, Methamphetamine, Mercury, Amaryllis, Sodium Hypochlorite, <a href="../err/404.html">+99 More.</a> 
+                            Cream, Methamphetamine, Mercury, Amaryllis, Sodium Hypochlorite, <a class="link-anchor" href="../err/404.html">+99 More.</a> 
                         </p>
                     </div>
                 </div>
@@ -150,7 +129,7 @@
                     San Diego, CA 92104<br>
                 </p>
                 <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
-                    *</span>For more details, please visit the main <a href="../contact.html">contact</a> page.
+                    *</span>For more details, please visit the main <a class="link-anchor" href="../contact.html">contact</a> page.
                 </p>
             </section>
         </aside>

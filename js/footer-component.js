@@ -48,7 +48,7 @@ class Footer extends HTMLElement {
             <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
         </div>
         <div class="sitewide-footer-grid-item_6">
-           <p class="sitewide-footer-border-text">Website 0.2.1.5 25108P</p>
+           <p class="sitewide-footer-border-text">Website 0.2.2.0 251013R</p>
         </div>
     </footer>
     `;

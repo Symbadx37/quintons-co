@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="../../img/icons/icon-yellow_32x32.png">
-    <script src="https://kit.fontawesome.com/3725a8a018.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <script src="../../js/header-component.js" defer></script>
     <script src="../../js/footer-component.js" defer></script>
+    <script src="../../js/session.js" defer></script>
+    <script src="../../js/main.js" defer></script>
 </head>
 <body>
     <header-component></header-component> 
@@ -20,7 +22,7 @@
             <p style="font-size: 1rem;"><span style="font-weight: 400; font-size: 1rem; color:#ea2424">
                 Warning:</span> Quinton's Co. is not responsible for any chronic conditions or bodily injuries that may result from consumption
                 of sold food items. Order and consume at high risk with no caution and/or discretion, because we wouldn't make any money if you
-                didn't. For a full list of health concerns, please consult our <a href="../err/503.html">Corporate Health Policy</a> for more details.
+                didn't. For a full list of health concerns, please consult our <a class="link-anchor" href="../err/503.html">Corporate Health Policy</a> for more details.
             </p>
             <div class="menu-container">
                 <div>
@@ -41,7 +43,7 @@
                             due to health violations).
                         </p>
                         <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                            Ingredients:</span> Potatoes, Car Oil, Soil, Plant Matter, Propionic Acid, Aluminum, Cyanide, Salt, <a href="../err/404.html">+99 More.</a> 
+                            Ingredients:</span> Potatoes, Car Oil, Soil, Plant Matter, Propionic Acid, Aluminum, Cyanide, Salt, <a class="link-anchor" href="../err/404.html">+99 More.</a> 
                         </p>
                     </div>
                 </div>
@@ -63,11 +65,79 @@
                             worse, they're also more expensive. Why? We literally have no idea.
                         </p>
                         <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
-                            Ingredients:</span> Avacadoes, Jet Fuel, Soil, Plant Matter, Phosphoric Acid, Lead, Arsenic, Salt, <a href="../err/404.html">+99 More.</a> 
+                            Ingredients:</span> Avacadoes, Jet Fuel, Soil, Plant Matter, Phosphoric Acid, Lead, Arsenic, Salt, <a class="link-anchor" href="../err/404.html">+99 More.</a> 
                         </p>
                     </div>
                 </div>
-            </div> 
+            </div>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/side-3.png" alt="Pile O' Fries" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Pile O' Fries</h1>
+                    <p class="menu-calories-text">1274 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $64.49 for small, $132.99 for large
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> A giant pile of extremely processed, grease-infused, and definitely not poisonous fries that will make you beg on the street for cash
+                            because you spent your entire life savings on buying extremely questionable yet addictive fries. Doesn't come with a container because containers are
+                            expensive. Instead, we just dump a random amount of fries on your table while you have to catch the ones that fall on the floor. And no, we don't ever
+                            mop the floors. You better get the five-second rule on speed-dial, because trust us, you're going to need it for this one.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Potatoes, Lawnmower Oil, Sodium Stearoyl Lactylate, Liquid Nitrogen, Aluminum, Domoic Acid, Methamphetamine, Unboiled Sea Salt, <a class="link-anchor" href="../err/404.html">+99 More.</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/side-4.png" alt="Cheese Chunk" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Chunk Of Cheese</h1>
+                    <p class="menu-calories-text">147 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $13.59 each
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> One large chunk of perfectly spoiled cheese that may or may not have been derived from questionable dairy-based sources. As long as
+                            it tastes good, which being entirely honest: it doesn't; why does it matter how we made it? Just don't mind the mold spots. It's just a minor byproduct
+                            of the totally not questionable sources the cheese is made from. What? Don't look at us, it's your own prerogative sport. Cheese is just fancy looking
+                            mold, after all.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Cheese-Product: Moldy Donkey Milk, Rotten Crow Milk, Spoiled Chicken Milk, Vaseline, Calcium Propionate, Acetone, <a class="link-anchor" href="../err/404.html">+9 More.</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div>
+                    <img src="../../img/menu/side-5.png" alt="Whole Lemons" class="menu-image-container">
+                </div>
+                <div>
+                    <h1 class="menu-item-text">Whole Lemons</h1>
+                    <p class="menu-calories-text">74 Cal.</p>
+                    <div class="menu-paragraph-text">
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Price:</span> $6.99 unsliced, $45.49 sliced
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Description:</span> Lemons, but it's literally just a whole lemon. That's it. Plant matter and all. Even comes with the soil it was grown in. Also comes
+                            with a sliced option, although you're gonna have to pay up for that premium slicing action. Teaching unskilled and unpaid teenage interns to slice lemons
+                            is a very costly pastime, in case you weren't aware.
+                        </p>
+                        <p style="font-size: 1.05rem;"><span style="font-weight: 400; font-size: 1.15rem">
+                            Ingredients:</span> Swampgrown Lemons, Unorganic Plant Matter, Soured Rat Manure, Untreated Sewage Water, <a class="link-anchor" href="../err/404.html">+9 More.</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <aside class="main-content-sidebar">
             <section>
@@ -98,7 +168,7 @@
                     San Diego, CA 92104<br>
                 </p>
                 <p class="sidebar-note-text"><span style="font-size: 0.90rem;">
-                    *</span>For more details, please visit the main <a href="../contact.html">contact</a> page.
+                    *</span>For more details, please visit the main <a class="link-anchor" href="../contact.html">contact</a> page.
                 </p>
             </section>
         </aside>
