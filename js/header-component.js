@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header>
         <nav class="sitewide-navbar-grid-container">
-            <img class="sitewide-navbar-logo" src="https://quintons.co/img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
+            <img id="navbar-logo" class="sitewide-navbar-logo" src="https://quintons.co/img/logo.png" alt="Quinton's Burgers & Fries" width="160px">
             <a class="sitewide-navbar-anchor_1" href="https://quintons.co/index.html">Home</a>
             <a class="sitewide-navbar-anchor_2" href="https://quintons.co/pgs/menu.html">Menu</a>
             <a class="sitewide-navbar-anchor_3" href="https://quintons.co/pgs/err/503.html">About</a>

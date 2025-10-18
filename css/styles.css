@@ -104,6 +104,9 @@
     place-items: center;
     grid-template-columns: 160px 80px 80px 80px 105px 120px 105px 1fr 160px;
 }
+.sitewide-navbar-logo {
+    cursor: pointer;
+}
 .sitewide-navbar-anchor_1, .sitewide-navbar-anchor_2, .sitewide-navbar-anchor_3, .sitewide-navbar-anchor_4,
 .sitewide-navbar-anchor_5, .sitewide-navbar-anchor_6, .sitewide-navbar-anchor_7 {
     font-family: "Shantell Sans";

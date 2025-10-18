@@ -5,7 +5,7 @@ let sessionData;
 $(document).ready(function() {
     updateSession("refresh");
     const activeWindow = window.location.href;
-    const mainWindow = "https://quintons.co"
+    const mainWindow = ["https://quintons.co/", "https://quintons.co/index.html"];
 
     // Initialize and/or refresh session
     if (typeof localStorage.sessionData === "undefined") {
@@ -14,22 +14,17 @@ $(document).ready(function() {
         updateSession("refresh");
     }
 
-    /* FIX FAULTY CODE
-
     // Redirect window if necessary
-    if (sessionData.modalState == 0 && activeWindow !== mainWindow) {
+    if (sessionData.modalState == 0 && activeWindow !== mainWindow[0] && activeWindow !== mainWindow[1]) {
         sessionData.redirectNeeded = true;
         updateSession("save");
     }
-    
     if (sessionData.redirectNeeded) {
         sessionData.redirectNeeded = false;
         updateSession("save");
         window.location.replace("https://quintons.co");
     }
 
-    */
-    
     // Detect modal state
     if (sessionData.modalState == 0) {
         $("#modal-container").show();
@@ -71,7 +66,7 @@ function updateSession(functionID) {
             setData(); getData(); break;
     }
 }
-    
+
 // Disable console access
 window.addEventListener('keydown', function(event) {
     if (event.code === 'F12') {
@@ -90,7 +85,7 @@ window.addEventListener('contextmenu', (e) => {
 
 // Modal event handler
 $("#modal-buttons input").on({
-    click: function(){
+    click: function() {
         if (this.id == "modal-accept") {
             sessionData.modalState = 1;
             updateSession("save");
@@ -103,3 +98,9 @@ $("#modal-buttons input").on({
         }
     }
 });
+
+$("#navbar-logo").on({
+    click: function() {
+        window.location.replace("https://quintons.co");
+    }
+})
