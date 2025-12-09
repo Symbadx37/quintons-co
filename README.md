@@ -5,6 +5,103 @@ This repository is an on-going side project for learning and practicing HTML, CS
 using GitHub pages and is a satirical website for a fictional fast food chain, [Quinton's Burgers & Fries](https://symbadx37.github.io/). This project was first started back in April 2024 and was later moved to GitHub in early October. If you would like to contribute, feel free to fork the repo and/or make a pull request.
 # Version History
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
+<<<<<<< Updated upstream
+=======
+## Minor Release v0.2.3.0
+**Commit Date:** December X, 2025
+- Updated customer complaint description.
+- Added contact information for two new locations on the contact page.
+- Added two new menu categories to the menu page and severalnew menu items.
+- Fixed various typos on several pages.
+-
+## Patch v0.2.2.3
+**Commit Date:** Novemeber 21st, 2025
+- Added new customer review to the `ratings.html` page.
+## Patch v0.2.2.2
+**Commit Date:** October 18th, 2025
+- Clicking the logo image at the top of the navbar now redirects to the home page.
+- Fixed JavaScript bug where site scrolling would be disabled but no modal box would be displayed whenever the user was on a different page than the `index.html` page.
+## Patch v0.2.2.1
+**Commit Date:** October 14th, 2025
+- Reworded disclaimer text and fixed minor typos.
+- Changed the name of a menu item from "Chunk Of Cheese" to "Cheese Chunk".
+- Updated descrption of the "Cheese Chunk" menu item.
+- Updated calorie counts for both the "Cheese Chunk" and "Whole Lemons" menu items.
+## Minor Release v0.2.2.0
+**Commit Date:** October 13th, 2025
+- Added disclaimer modal dialog box.
+- Added new customer review to the `ratings.html` page.
+- Added new menu items to the `fries.html` page.
+- Added new `403.html` error page for declining company terms.
+- Added JavaScript code for handling modal box, local saving, preventing scrolling, and disabling console access.
+- Tweaked CSS for buttons and anchors.
+- Fixed various format and syntax issues.
+## Patch v0.2.1.5
+**Commit Date:** October 8th, 2025
+- Added 'js' folder to root for storing JavaScript files.
+- Refactored some HTML code and removed unecessary whitespace.
+- Added `header-component.js` and `footer-component.js` to allow for code resuability for both header and footer HTML components.
+- Fixed a minor typo on the `hamburgers.html` page.
+## Patch v0.2.1.4
+**Commit Date:** September 15th, 2025
+- Disabled CAPTCHA for all form submissions to resolve internal service errors with form submission server.
+- Removed sensitive information from form elements on the `contact.html` and `ratings.html` pages.
+- Added two new customer reviews to the `ratings.html` page.
+## Patch v0.2.1.3
+**Commit Date:** September 4th, 2025
+- Added custom DNS to the repository: https://quintons.co. The old github.io DNS will now redirect to the new domain.
+- Changed phone numbers for main business line, customer support line, customer complaint line, and all business-specific phone lines on all applicable pages to prevent potential spam of real world numbers.
+- Removed support email from the `contact.html` page.
+- Enabled CAPTCHA for all form submissions.
+- Updated redirect URL for all form submissions.
+- Added webhook link for displaying form submissions in the Quinton's discord server.
+- Added disclaimer to the `README.md`.
+## Patch v0.2.1.2
+**Commit Date:** May 28th, 2025
+- Added new customer review to the `ratings.html` page.
+- Corrected the customer name for the "In Complete Shambles" review on the `ratings.html` page.
+## Patch v0.2.1.1
+**Commit Date:** May 21st, 2025
+- Improved the wording of the newest customer review, 'In Complete Shambles' to grammatically flow better.
+## Minor Release v0.2.1.0
+**Commit Date:** May 21st, 2025
+- Added two new menu items to `condiments.html` page.
+- Added new customer review to the `ratings.html` page.
+- Added new text element to the sitewide footer. The current website version code and build number are now displayed at the bottom of each page.
+- Fixed issue with discord image not showing up on the footer of some pages due to an incorrect filepath.
+- Updated ingredients list for all hamburgers on the `hamburger.html` page.
+- Refactored a few classes in the external stylesheet.
+- Updated discord invite link on all pages.
+- Fixed a few minor typos.
+## Patch v0.2.0.5
+**Commit Date:** March 25th, 2025
+- Added new customer review to the `ratings.html` page.
+- Updated the discord invite code for the sitewide footer on all respective pages.
+## Patch v0.2.0.4
+**Commit Date:** March 24th, 2025
+- Added `LICENSE` file to root.
+## Patch v0.2.0.3
+**Commit Date:** March 24th, 2025
+- Added an upscaled version (from 96x96 to 384x384) of the Quinton's favicon to the source code for future use.
+- Added a new folder `form` to the `pgs` subdirectory for containing form related redirection pages.
+- Created a new redirect page called `submission.html` for displaying after submitting a form.
+- Updated form settings in `contact.html` and `ratings.html` to redirect to `submission.html`.
+- Setup webhook in Quinton's Co. discord server for displaying repository actions and changes.
+## Patch v0.2.0.2
+**Commit Date:** March 23rd, 2025
+- Minor code refactoring to `index.html`.
+- Removed unused @import queries from `styles.css`.
+- Moved local @font-face query to the top of the `styles.css` file.
+- Added new customer review to the `ratings.html` page.
+- Further optimized all background image assets to improve loading times.
+- Removed unused image assets from source code.
+- Increased height of form input containers on the `contact.html` page to prevent text clipping within the select field.
+## Patch v0.2.0.1
+**Commit Date:** March 19th, 2025
+- Fixed minor grammatical errors on `sandwiches.html` and `condiments.html`.
+- Added anchor links for the sitewide navbar to `404.html` page.
+- Removed menu items `Ketchup Bottle` and `Special Sauce` from the `condiments.html` page. They will be added back in a minor update.
+>>>>>>> Stashed changes
 ## Release v0.2.0
 **Commit Date:** March 19th, 2025
 ### General Changes
