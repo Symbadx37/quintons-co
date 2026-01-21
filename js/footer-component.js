@@ -45,10 +45,10 @@ class Footer extends HTMLElement {
             <a class="sitewide-footer-anchor-text" href="https://quintons.co/pgs/err/404.html">Terms and Conditions</a>
         </div>
         <div class="sitewide-footer-grid-item_5">
-            <p class="sitewide-footer-border-text">&copy 2024 - 2025 Quinton's Co. All rights reserved.</p>
+            <p class="sitewide-footer-border-text">&copy 2024 - 2026 Quinton's Co. All rights reserved.</p>
         </div>
         <div class="sitewide-footer-grid-item_6">
-           <p class="sitewide-footer-border-text">Website 0.2.3.0 251210R</p>
+           <p class="sitewide-footer-border-text">Website 0.2.3.1 260121P</p>
         </div>
     </footer>
     `;

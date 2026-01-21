@@ -14,6 +14,12 @@ This repository is an on-going side project for learning and practicing HTML, CS
 
 The full changelogs for all release versions are listed below in addition to the original commit date. Since I'm using GitHub pages instead of using the built-in 'Releases' feature (since this repository is pure HTML and CSS), this README is the primary way I'm documenting development changes.
 
+## Patch v0.2.3.1
+
+**Commit Date:** January 21st, 2026
+
+- Updated the site copyright for 2026.
+
 ## Minor Release v0.2.3.0
 
 **Commit Date:** December 12th, 2025
