@@ -5,7 +5,7 @@ let sessionData;
 $(document).ready(function() {
     updateSession("refresh");
     const activeWindow = window.location.href;
-    const mainWindow = ["https://quintons.co/", "https://quintons.co/index.html"];
+    const mainWindow = ["https://quintons.jsym.dev/", "https://quintons.jsym.dev/index.html"];
 
     // Initialize and/or refresh session
     if (typeof localStorage.sessionData === "undefined") {
@@ -22,7 +22,7 @@ $(document).ready(function() {
     if (sessionData.redirectNeeded) {
         sessionData.redirectNeeded = false;
         updateSession("save");
-        window.location.replace("https://quintons.co");
+        window.location.replace("https://quintons.jsym.dev");
     }
 
     // Detect modal state
@@ -31,7 +31,7 @@ $(document).ready(function() {
         disableScroll(); 
     } 
     else if (sessionData.modalState == 2) {
-        window.location.replace("https://quintons.co/pgs/err/403.html");
+        window.location.replace("https://quintons.jsym.dev/pgs/err/403.html");
     }
 });
 
@@ -94,13 +94,13 @@ $("#modal-buttons input").on({
         } else {
             sessionData.modalState = 2;
             updateSession("save");
-            window.location.replace("https://quintons.co/pgs/err/403.html");
+            window.location.replace("https://quintons.jsym.dev/pgs/err/403.html");
         }
     }
 });
 
 $("#navbar-logo").on({
     click: function() {
-        window.location.replace("https://quintons.co");
+        window.location.replace("https://quintons.jsym.dev");
     }
 })
